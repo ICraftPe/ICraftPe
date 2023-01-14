@@ -1,0 +1,5 @@
+local P = game.Players.LocalPlayer
+Local BS = game:GetService("BadgeService")
+Local BI = 2129384243
+
+BS:AwardBadge(P.UserId, BI)
