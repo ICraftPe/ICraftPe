@@ -4,4 +4,4 @@ game.Players.LocalPlayer
 wait()
 local Badge = game:GetService("BadgeService")
 Badge:AwardBadge(Player.UserId, BadgeId)
-end)
+end
