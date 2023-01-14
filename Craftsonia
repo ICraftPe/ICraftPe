@@ -1,9 +1,3 @@
 local RP = game.ReplicatedStorage
-Local BS = game:GetService("BadgeService")
-local BI = 2128724702
-
-RP.FirstCodeEvent.OnServerEvent:Connect(function(Player)
-    BS:AwardBadge(Player.UserId, BI)
-end)
 
 RP.FirstCodeEvent:FireServer()
