@@ -1,2 +1,11 @@
-BadgeID = 2128217270
-game:GetService("BadgeService"):AwardBadge(game.Players.LocalPlayer.UserId, BadgeId)
+local RP = game.ReplicatedStorage
+Local BS = game:GetService("BadgeService")
+local BI = 2128724702
+
+RP.DeclineTrade.OnClientEvent:Connect(function(Player)
+    BS:AwardBadge(Player.UserId, BI)
+end)
+
+wait(3)
+
+RP.DeclineTrade:FireServer()
