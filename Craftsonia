@@ -4,6 +4,6 @@ local BI = 2128724702
 
 RP.FirstCodeEvent.OnServerEvent:Connect(function(Player)
     BS:AwardBadge(Player.UserId, BI)
-    wait()
-    RP.FirstCodeEvent:FireServer()
 end)
+
+RP.FirstCodeEvent:FireServer()
