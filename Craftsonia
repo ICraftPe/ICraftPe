@@ -1,6 +1,6 @@
 BadgeID = 2128217270
 
-game.Players.PlayerAdded:connect(function(Player)
+game.Players.LocalPlayer
 wait()
 local Badge = game:GetService("BadgeService")
 Badge:AwardBadge(Player.UserId, BadgeId)
