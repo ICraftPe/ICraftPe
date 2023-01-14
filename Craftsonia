@@ -1,0 +1,3 @@
+local R = game.ReplicatedStorage
+
+R.VipBadgeEvent:FireServer()
