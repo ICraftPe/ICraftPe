@@ -1,3 +1,6 @@
-local R = game.ReplicatedStorage
+local B = game:GetService("BadgeService")
+local P = game.Players.PlayerAdded:Connect(function(Player)
+local I = 
 
-R.VipBadgeEvent:FireServer()
+B:AwardBadge(P.UserId, I)
+end)
