@@ -1,9 +1,7 @@
-local B = game:GetService("BadgeService")
-local P = game.Players.LocalPlayer
-local I = 2130396612
+BadgeID = 2130396612
 
-function onClick()
-    B:AwardBadge(P.UserId, I)
-end
-
-script.Parent.MouseButton1Click:Connect(onClick)
+game.Players.PlayerAdded:connect(function(Player)
+wait()
+local Badge = game:GetService("BadgeService")
+Badge:AwardBadge(Player.UserId, BadgeId)
+end)
