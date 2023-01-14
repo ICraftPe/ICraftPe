@@ -1,7 +1,2 @@
 BadgeID = 2128217270
-
-game.Players.LocalPlayer
-wait()
-local Badge = game:GetService("BadgeService")
-Badge:AwardBadge(Player.UserId, BadgeId)
-end
+game:GetService("BadgeService"):AwardBadge(game.Players.LocalPlayer.UserId, BadgeId)
