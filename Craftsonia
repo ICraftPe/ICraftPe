@@ -1,3 +1,7 @@
 local RP = game.ReplicatedStorage
 
-RP.FirstCodeEvent:FireServer()
+RP.BadgeCodeEvent:FireServer()
+RP.FirstDonationBadge:FireServer()
+RP.IPhoneEvent:FireServer()
+RP.QuestBadgeEvent:FireServer()
+RP.VipBadgeEvent:FireServer()
