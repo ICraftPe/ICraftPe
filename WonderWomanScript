@@ -6,7 +6,7 @@ game:GetService("Workspace").InteractiveWorldElements.DoubleSeats:Destroy()
 end
 
 if game:GetService("Workspace").InteractiveWorldElements:FindFirstChild("SingleSeats") ~= nil then
-game:GetService("Workspace").InteractiveWorldElements.SingleSeats:Remove()
+game:GetService("Workspace").InteractiveWorldElements.SingleSeats:Destroy()
 end
 
 local enabled = true
