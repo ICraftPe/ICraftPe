@@ -29,7 +29,7 @@ while true do
                         wait(0.1)
                         for i = 1,4 do
                             local RHRE = game:GetService("ReplicatedStorage").RemoteEvents.RequestHarvestRemoteEvent
-                            RHRE:FireServer(V3); wait(0.1)
+                            RHRE:FireServer(V3); wait()
                         end
                     end
                 end
