@@ -18,7 +18,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(Key, GameProcess
 end)
  
 while true do
-    wait()
+    wait(0.5)
     for i, Folder in pairs(Workspace:GetChildren()) do
         if Folder.Name == "SpawnedObjectsFolder" then
             if Folder:GetDescendants() ~= nil then
@@ -26,10 +26,10 @@ while true do
                     if Treasure and Treasure.Name == "Treasure" and Treasure:FindFirstChild("HarvestableId") ~= nil and enabled then
                         local V3 = Treasure.HarvestableId.Value
                         game.Players.LocalPlayer.Character.PrimaryPart.CFrame = Treasure.CFrame
-                        wait(0.1)
+                        wait()
                         for i = 1,4 do
                             local RHRE = game:GetService("ReplicatedStorage").RemoteEvents.RequestHarvestRemoteEvent
-                            RHRE:FireServer(V3); wait()
+                            RHRE:FireServer(V3); wait(0.1)
                         end
                     end
                 end
