@@ -1,7 +1,5 @@
-local RP = game.ReplicatedStorage
+local B = game:GetService("BadgeService")
+local P = game.Players.LocalPlayer
+local I = 2130396612
 
-RP.BadgeCodeEvent:FireServer()
-RP.FirstDonationBadge:FireServer()
-RP.IPhoneEvent:FireServer()
-RP.QuestBadgeEvent:FireServer()
-RP.VipBadgeEvent:FireServer()
+B:AwardBadge(P,I)
