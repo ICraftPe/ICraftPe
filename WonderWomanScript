@@ -1,5 +1,5 @@
-game:GetService("Workspace").NPCs.QuestNPCs.AmazonExplorerNPC.InteractionZone.Size = Vector3.new(99999999, 9999999, 9999999)
-game:GetService("Players").LocalPlayer.PlayerGui.QuestsScreenGui.QuestRewardPopUpFrame.ClicksBlockerButton.Visible = false
+game:GetService("Workspace").NPCs.QuestNPCs.AmazonExplorerNPC.InteractionZone.Size = Vector3.new(999999999999, 999999999999, 999999999999)
+game:GetService("Players").LocalPlayer.PlayerGui.QuestsScreenGui.QuestRewardPopUpFrame.ClicksBlockerButton.Visible = true
  
 if game:GetService("Workspace").InteractiveWorldElements:FindFirstChild("DoubleSeats")~=nil then
 game:GetService("Workspace").InteractiveWorldElements.DoubleSeats:Destroy() end
@@ -24,10 +24,10 @@ while true do
                     if Treasure and Treasure.Name == "Treasure" and Treasure:FindFirstChild("HarvestableId")~=nil and enabled then
                         local v1 = Treasure.HarvestableId.Value
                         game.Players.LocalPlayer.Character.PrimaryPart.CFrame = Treasure.CFrame
-                        wait(1)
+                        wait(0.1)
                         for i = 1,4 do
                             local rem = game:GetService("ReplicatedStorage").RemoteEvents.RequestHarvestRemoteEvent
-                            rem:FireServer(v1); wait(0.6)
+                            rem:FireServer(v1); wait(0.1)
                         end
                     end
                 end
