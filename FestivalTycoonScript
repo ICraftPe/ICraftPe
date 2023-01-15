@@ -1,5 +1,6 @@
-
+wait()
 game:GetService("ReplicatedStorage").RemoteObjects.ClaimMainStageChallenge:FireServer()
-
+wait()
 game:GetService("ReplicatedStorage").RemoteObjects.IncrementBeachCash:FireServer(10000000000)
+wait()
 game:GetService("ReplicatedStorage").RemoteObjects.DanceGameCash:FireServer(10000000000)
