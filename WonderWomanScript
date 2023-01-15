@@ -16,7 +16,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(key, gameProcess
 end)
  
 while true do
-    wait(0.1)
+    wait(0.5)
     for i, Folder in pairs(Workspace:GetChildren()) do
         if Folder.Name == "SpawnedObjectsFolder" then
             if Folder:GetDescendants() ~= nil then
