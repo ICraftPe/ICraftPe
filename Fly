@@ -52,7 +52,7 @@ bv:Destroy()
 plr.Character.Humanoid.PlatformStand = false
 end
 mouse.KeyDown:connect(function(key)
-if key:lower() == "t" then
+if key:lower() == "r" then
 if flying then flying = false
 else
 flying = true
