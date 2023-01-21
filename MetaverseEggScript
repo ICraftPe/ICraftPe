@@ -1,10 +1,9 @@
-for _,v in pairs(game.workspace.CurrentMap:GetDescendants()) do
-   if v.Name == "Checkpoint" then
-       firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, v, 0)
-       wait(0.5)
+if game:GetService("ReplicatedStorage"):FindFirstChild("BearSuite") then
+   game:GetService("ReplicatedStorage").BearSuite.Shared.PartySystem.Types.StorygamePartySystem.AddToParty:FireServer("Shuttle1")
+else
+   while wait(0.1) do
+       for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerCards:GetChildren()) do
+           game:GetService("ReplicatedStorage").Remotes.Units.Place:InvokeServer(v.Name, CFrame.new(5.8949995, 12.9809999, 185.843994, -1, 0, -8.74227766e-08, 0, 1, 0, 8.74227766e-08, 0, -1))
+       end
    end
 end
-print("1")
-wait(5)
-firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").CurrentMap.Goal.Goal, 0)
-print("2")
