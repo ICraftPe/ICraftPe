@@ -1,27 +1,12 @@
-local function betterfireproximityprompt(Obj, Amount, Skip)
-  if Obj.ClassName == "ProximityPrompt" then
-      Amount = Amount or 1
-      local PromptTime = Obj.HoldDuration
-      if Skip then
-          Obj.HoldDuration = 0
-      end
-      for i = 1, Amount do
-          Obj:InputHoldBegin()
-          if not Skip then
-              wait(Obj.HoldDuration)
-          end
-          Obj:InputHoldEnd()
-      end
-      Obj.HoldDuration = PromptTime
-  else
-      error("userdata<ProximityPrompt> expected")
-  end
-end
-
-if game.PlaceId == 6153835331 then
-   game:GetService("TeleportService"):Teleport(6759436138)
-else
-   game.Players.LocalPlayer.Character:MoveTo(game:GetService("Workspace").Chest.Position)
-   wait(1)
-   betterfireproximityprompt(game:GetService("Workspace").FeyInteract.ProximityPrompt)
+while wait() do
+   if game.Players.LocalPlayer.Character then
+       for _,v in pairs(game.workspace:GetChildren()) do
+           if v.Name == "MetaverseToken" then
+               print("egggggggggggggggggggggggggggggggggggg1")
+               firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, v.HitBox, 0)
+               wait(0.1)
+                print("egggggggggggggggggggggggggggggggggggg2")
+           end
+       end
+   end
 end
