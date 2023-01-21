@@ -1,17 +1,7 @@
-if game:GetService("Workspace"):FindFirstChild("Map") then
-       if game:GetService("Workspace").Map:FindFirstChild("Sparks") then
-           for _,v in pairs(game.workspace.Map.Sparks:GetChildren()) do
-               if v.ClassName == "Part" then
-                  v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-                  --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-                  wait(1)
-                  print(#game:GetService("Players").LocalPlayer.PartsCollected:GetChildren())
-               end
-           end
-       end
-   end
-   wait()
-until #game:GetService("Players").LocalPlayer.PartsCollected:GetChildren() == 5
-
---print(#game:GetService("Players").LocalPlayer.PartsCollected:GetChildren())
-print("end")
+for i,v in pairs(workspace:GetDescendants()) do
+if v.ClassName == "Part" and v.Parent.Parent.Name == "EggButtons" then
+if v:FindFirstChild("TouchInterest") ~= nil then
+firetouchinterest(v, game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+end
+end
+end
