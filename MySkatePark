@@ -1,1 +1,10 @@
-game:GetService("ReplicatedStorage").modules.Network.AwardBadge:InvokeServer(2124674087)
+if not game:GetService("Workspace").ScriptParts.EctoplasmConverters:FindFirstChild("MetaverseWorldConverter") then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.Openers.EventWorldTeleporter.CFrame
+else
+   game:GetService("Workspace").Drops.ChildAdded:Connect(function(c)
+       firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, c, 0)
+   end)
+   game:GetService('RunService').Stepped:Connect(function()
+       game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+   end)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartQuest:FireServer(0)
