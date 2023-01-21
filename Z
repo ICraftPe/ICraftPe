@@ -1,1 +1,17 @@
-game:GetService("ReplicatedStorage").RemoteEvents.FeyDialogue:FireServer(2, 5)
+if game:GetService("Workspace"):FindFirstChild("Map") then
+       if game:GetService("Workspace").Map:FindFirstChild("Sparks") then
+           for _,v in pairs(game.workspace.Map.Sparks:GetChildren()) do
+               if v.ClassName == "Part" then
+                  v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                  --game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+                  wait(1)
+                  print(#game:GetService("Players").LocalPlayer.PartsCollected:GetChildren())
+               end
+           end
+       end
+   end
+   wait()
+until #game:GetService("Players").LocalPlayer.PartsCollected:GetChildren() == 5
+
+--print(#game:GetService("Players").LocalPlayer.PartsCollected:GetChildren())
+print("end")
