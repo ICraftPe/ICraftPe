@@ -8,3 +8,80 @@ else
        game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
    end)
    game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartQuest:FireServer(0)
+   game:GetService("Players").LocalPlayer.PlayerScripts.Functions.UseVacuum:Invoke(game:GetService("Players").LocalPlayer)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+   local Quest = {["Red Mush"] = 3, ["Fox Girl"] = 5}
+   for i,v in pairs(Quest) do
+       repeat wait()
+           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.EctoplasmConverters.MetaverseWorldConverter.CFrame
+           wait(0.2)
+           local Ghost = game:GetService("Workspace").Ghosts:FindFirstChild(i)
+           if Ghost.Health.Value <= 0 then
+               Ghost:Destroy()
+               Ghost = game:GetService("Workspace").Ghosts:FindFirstChild(i)
+           end
+           repeat wait(0.1) if Ghost:FindFirstChild("HumanoidRootPart") then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Ghost.HumanoidRootPart.CFrame + Vector3.new(0,-6,0) end game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(Ghost) until Ghost.Parent ~= game:GetService("Workspace").Ghosts
+           v = v - 1
+       until v == 0
+   end
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.EctoplasmConverters.MetaverseWorldConverter.CFrame
+   wait(0.2)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(0)
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.FindParts.WishingWell.CFrame
+   wait(0.5)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(0)
+   wait(1)
+   repeat wait()
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.EctoplasmConverters.MetaverseWorldConverter.CFrame
+       wait(0.2)
+       local Ghost = game:GetService("Workspace").Ghosts:FindFirstChild("Red Mush") or game:GetService("Workspace").Ghosts:FindFirstChild("Fox Girl")
+       if Ghost.Health.Value <= 0 then
+           Ghost:Destroy()
+           Ghost = game:GetService("Workspace").Ghosts:FindFirstChild("Red Mush") or game:GetService("Workspace").Ghosts:FindFirstChild("Fox Girl")
+       end
+       repeat wait(0.1) if Ghost:FindFirstChild("HumanoidRootPart") then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Ghost.HumanoidRootPart.CFrame + Vector3.new(0,-6,0) end game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(Ghost) until Ghost.Parent ~= game:GetService("Workspace").Ghosts
+   until game:GetService("Players").LocalPlayer.PlayerGui.UI.MainGui.Stats.Container.Manager.Event.Value >= 500
+   wait(1)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.OpenPetCrate:FireServer(0, false)
+   wait(1)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(0)
+   wait(1)
+   firetouchinterest(game:GetService("Workspace").ScriptParts.BonusAreaBlocks["-123"].Door, game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.UnlockBonusArea:FireServer(-123)
+   wait(1)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.EctoplasmConverters.MetaverseWorldConverter.CFrame
+   wait(0.5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.MegaBossArenas["1"].WaitingArea.CFrame
+   repeat wait(0.1) until not game:GetService("Workspace").ScriptParts.MegaBossArenas["1"]:FindFirstChild("Data")
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ScriptParts.MegaBossArenas["1"].WaitingArea.CFrame
+   repeat wait(0.1) until game:GetService("Workspace").ScriptParts.MegaBossArenas["1"]:FindFirstChild("Data")
+   wait(1)
+   game:GetService("Players").LocalPlayer.PlayerScripts.Functions.UseVacuum:Invoke(game:GetService("Players").LocalPlayer)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.StartUseVacuum:FireServer()
+   repeat wait()
+       for i,Ghost in pairs(game:GetService("Workspace").Ghosts:GetChildren()) do
+           if Ghost:FindFirstChild("Dungeon") then
+               if Ghost.Health.Value <= 0 then
+                   Ghost:Destroy()
+               end
+               repeat wait(0.1) if Ghost:FindFirstChild("HumanoidRootPart") then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Ghost.HumanoidRootPart.CFrame + Vector3.new(0,-7,0) end game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumEnemy:FireServer(Ghost) until Ghost.Parent ~= game:GetService("Workspace").Ghosts
+           end
+       end
+   until game:GetService("Workspace").Ghosts:FindFirstChild("Meep")
+   if game:GetService("Workspace").Ghosts:FindFirstChild("Meep") then
+       game:GetService("Workspace").Ghosts:FindFirstChild("Meep"):WaitForChild("HumanoidRootPart")
+       wait(1)
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Ghosts.Meep.HumanoidRootPart.CFrame + Vector3.new(0,-20,0)
+       repeat wait()
+           if game:GetService("Workspace").Ghosts:FindFirstChild("Meep") then
+               game:GetService("ReplicatedStorage").Network.ToServer.Requests.VacuumFireHit:FireServer(workspace.Ghosts.Meep)
+           end
+       until not workspace.Ghosts:FindFirstChild("Meep")
+   end
+   repeat wait(0.1) until not game:GetService("Workspace").ScriptParts.MegaBossArenas["1"]:FindFirstChild("Data")
+   wait(0.5)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(0)
+   wait(3)
+   game:GetService("ReplicatedStorage").Network.ToServer.Requests.AdvanceQuest:FireServer(0)
+end
