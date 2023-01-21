@@ -1,1 +1,1 @@
-game:GetService("ReplicatedStorage").Metaverse:FireServer()
+game:GetService("ReplicatedStorage").GiveNewBadge:FireServer()
