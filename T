@@ -1,1 +1,1 @@
-game:GetService("Players").LocalPlayer.Character.Generator.RemoteEvent:FireServer()
+game:GetService("ReplicatedStorage").Metaverse:FireServer()
