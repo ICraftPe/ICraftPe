@@ -1,22 +1,10 @@
-if game.PlaceId == 2960777560 then
-   game:GetService("ReplicatedStorage").Lobby.Remotes.CreateSquad:FireServer("Monolith Boss","Medium","Classic","Solo")
-   wait(0.1)
-   game:GetService("ReplicatedStorage").Lobby.Remotes.StartGame:FireServer()
-else
-   repeat
-       wait()
-   until game:GetService("Workspace").Characters:FindFirstChild(game:GetService("Players").LocalPlayer.Name) ~= nil
-   wait(0.1)
-   game:GetService("ReplicatedStorage").Dungeon.Remotes.StartDungeon:FireServer()
-   wait(6)
-   local BodyVelocity = Instance.new("BodyVelocity", game:GetService("Players").LocalPlayer.Character.HumanoidRootPart)
-   BodyVelocity.Velocity = Vector3.new(0, 0, 0)
-   BodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
-   BodyVelocity.P = 9000
-   while wait() do
-       game:GetService("Workspace").Dungeon.Enemies.Monolith.HumanoidRootPart.CFrame = CFrame.new(-2271, 397, -676)
-       game:GetService("ReplicatedStorage").Shared.Remotes.Combat.BasicAttack:FireServer(game:GetService("Workspace").Dungeon.Enemies.Monolith.Head.Position)
-       game:GetService("ReplicatedStorage").Shared.Remotes.Combat.UseAbility:FireServer(game:GetService("Workspace").Dungeon.Enemies.Monolith.Head.Position)
-       game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Dungeon.Enemies.Monolith.Head.CFrame
+while wait() do
+   for i,v in pairs(game:GetService("Workspace").MapAreas.Area4WorldWarsRegular.Mobs:GetChildren()) do
+       if v.Name == "Invader" then
+           repeat
+               v.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, -4)
+               wait()
+           until v:FindFirstChildWhichIsA("Humanoid").Health == 0
+       end
    end
 end
