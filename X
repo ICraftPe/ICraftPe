@@ -1,0 +1,1 @@
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Wren Brightblade"].PromptPart.CFrame

@@ -1,1 +1,0 @@
-game:GetService("Workspace").NothingToSeeHere.BadgeAwarderWren.Platform.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
