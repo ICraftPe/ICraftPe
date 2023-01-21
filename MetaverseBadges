@@ -1,1 +1,1 @@
-game:GetService("TeleportService"):Teleport(6759269754)
+game:GetService("ReplicatedStorage").modules.Network.AwardBadge:InvokeServer(2124708781)
