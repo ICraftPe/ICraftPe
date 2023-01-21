@@ -1,9 +1,27 @@
-if game:GetService("ReplicatedStorage"):FindFirstChild("BearSuite") then
-   game:GetService("ReplicatedStorage").BearSuite.Shared.PartySystem.Types.StorygamePartySystem.AddToParty:FireServer("Shuttle1")
+local function betterfireproximityprompt(Obj, Amount, Skip)
+  if Obj.ClassName == "ProximityPrompt" then
+      Amount = Amount or 1
+      local PromptTime = Obj.HoldDuration
+      if Skip then
+          Obj.HoldDuration = 0
+      end
+      for i = 1, Amount do
+          Obj:InputHoldBegin()
+          if not Skip then
+              wait(Obj.HoldDuration)
+          end
+          Obj:InputHoldEnd()
+      end
+      Obj.HoldDuration = PromptTime
+  else
+      error("userdata<ProximityPrompt> expected")
+  end
+end
+
+if game.PlaceId == 6153835331 then
+   game:GetService("TeleportService"):Teleport(6759436138)
 else
-   while wait(0.1) do
-       for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerCards:GetChildren()) do
-           game:GetService("ReplicatedStorage").Remotes.Units.Place:InvokeServer(v.Name, CFrame.new(5.8949995, 12.9809999, 185.843994, -1, 0, -8.74227766e-08, 0, 1, 0, 8.74227766e-08, 0, -1))
-       end
-   end
+   game.Players.LocalPlayer.Character:MoveTo(game:GetService("Workspace").Chest.Position)
+   wait(1)
+   betterfireproximityprompt(game:GetService("Workspace").FeyInteract.ProximityPrompt)
 end
