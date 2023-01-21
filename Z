@@ -1,14 +1,1 @@
-local Crate = game:GetService("Workspace").EventCrateStorage:FindFirstChild("EventCrate")
-
-while true do
-   if Crate then
-       Crate.CFrame  = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
-       Crate.ProximityPrompt:InputHoldBegin()
-       wait()
-       Crate.ProximityPrompt:InputHoldEnd()
-   else
-       warn("Not")
-       break
-   end
-   wait()
-end
+game:GetService("ReplicatedStorage").RemoteEvents.FeyDialogue:FireServer(2, 5)
