@@ -1,10 +1,10 @@
-while game:GetService("Players").LocalPlayer.PlayerGui.UI.LeftBar.AJ.Text ~= "20/20" do
-   for _,v in pairs(game:GetService("Workspace").CurrentMap:GetDescendants()) do
-       if v.Name == "Checkpoint" then
-           firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, v, 0)
-           wait(0.5)
-       end
+for _,v in pairs(game.workspace.CurrentMap:GetDescendants()) do
+   if v.Name == "Checkpoint" then
+       firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, v, 0)
+       wait(0.5)
    end
-   firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").CurrentMap.Goal.Goal, 0)
-   wait(0.5)
-   game:GetService("Players").LocalPlayer.Character:BreakJoints()
+end
+print("1")
+wait(5)
+firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").CurrentMap.Goal.Goal, 0)
+print("2")
