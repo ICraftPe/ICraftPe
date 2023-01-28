@@ -1,0 +1,12 @@
+local buyItem = game:GetService("ReplicatedStorage").Store.Remote.PurchaseRequest
+
+buyItem:FireServer("hawkings_backpack",false)
+buyItem:FireServer("sc_badge",false)
+buyItem:FireServer("vest",false)
+buyItem:FireServer("headgear",false)
+buyItem:FireServer("robin_costume",false)
+buyItem:FireServer("eleven_costume",false)
+buyItem:FireServer("demogorgon_costume",false)
+buyItem:FireServer("hazmat_costume",false)
+buyItem:FireServer("steven_costume",false)
+buyItem:FireServer("will_costume",false)
