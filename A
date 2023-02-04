@@ -1,8 +1,7 @@
-while wait() do
-   game:GetService("ReplicatedStorage").Events.Checkpoint:FireServer()
-   WeebGang = game.Players.LocalPlayer.leaderstats.Stage.Value + 1
-   if game.Workspace.Stages:FindFirstChild(tostring(WeebGang)) then
-       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-           game.Workspace.Stages:FindFirstChild(tostring(WeebGang)).CFrame
-   end
-end
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-843.841858, 484.199951, -860.406677)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1481.25317, 224.199966, 468.434509)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2121.18042, 632.754822, -472.686371)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(212.470352, 704.190125, -2299.19336)
