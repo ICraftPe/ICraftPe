@@ -1,6 +1,0 @@
-for _,v in pairs(game:GetService("Workspace"):GetDescendants()) do
-  if v:IsA("PointLight") and v.Color == Color3.fromRGB(255, 170, 255) then
-      game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame + Vector3.new(10, 2, 1.50)
-      break
-  end
-en
