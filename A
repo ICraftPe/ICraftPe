@@ -1,15 +1,8 @@
-local Maps = {"Ships", "Rocket Pad", "Apartment Block", "Construction Site", "Farm", "High School", "Skyscraper", "The Bridge", "Tower Bridge", "Power Station", "Futuristic Desert Town", "Large Store", "Warehouse"}
-
-for _,v in pairs(workspace:GetChildren()) do
-   if table.find(Maps, v.Name) then
-       local Suit = v.UnanchoredModel.Suitcase
-
-       game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = Suit.CFrame
-       wait(1)
-       Suit:FindFirstChild("SuitcasePrompt"):InputHoldBegin()
-       wait(1)
-       Suit:FindFirstChild("SuitcasePrompt"):InputHoldEnd()
-       wait(4)
-       game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Lobby["VIP Room"].Part.CFrame
+while wait() do
+   game:GetService("ReplicatedStorage").Events.Checkpoint:FireServer()
+   WeebGang = game.Players.LocalPlayer.leaderstats.Stage.Value + 1
+   if game.Workspace.Stages:FindFirstChild(tostring(WeebGang)) then
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+           game.Workspace.Stages:FindFirstChild(tostring(WeebGang)).CFrame
    end
 end
