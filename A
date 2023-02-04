@@ -1,1 +1,0 @@
-game.Workspace.MetaverseBadge.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame

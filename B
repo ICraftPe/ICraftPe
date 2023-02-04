@@ -1,0 +1,11 @@
+print("s")
+while wait(0.1) do
+   for _,v in pairs(game.workspace:GetChildren()) do
+       if string.find(v.Name:lower(), "map") then
+           if v:FindFirstChild("MysteryChest") then
+               v.MysteryChest.BadgeGiver.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+               print("sdw")
+           end
+       end
+   end
+end
