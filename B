@@ -1,0 +1,7 @@
+for _,v in pairs(game:GetService("Workspace").TowerModulesFolder:GetChildren()) do
+if v.Name == "Metaverse Data Facility" then
+--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.AwardBrick.CFrame
+v.AwardBrick.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+print("bingo")
+end
+end
