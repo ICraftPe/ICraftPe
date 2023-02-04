@@ -1,0 +1,71 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local Main = Library:Window("Undead Defense Tycoon")
+
+Main:Toggle("AutoFarm", false, function(Farm)
+   spawn(function()
+       getgenv().AutoFarm = Farm
+
+       while getgenv().AutoFarm do
+           for _,v in pairs(game:GetService("Workspace").Zombies:GetChildren()) do
+               if getgenv().AutoFarm then
+                   pcall(function()
+                       repeat
+                           wait()
+                           if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").Health >= 1 and game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Frag Grenade") or game:GetService("Players").LocalPlayer.Character:FindFirstChild("Frag Grenade") then
+                               if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Frag Grenade") == nil then
+                                   game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game:GetService("Players").LocalPlayer.Backpack["Frag Grenade"])
+                               elseif game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool").Name == "Frag Grenade" then
+                                   game:GetService("Players").LocalPlayer.Character["Frag Grenade"]:FindFirstChild("Throw"):FireServer(v.Head.Position, Vector3.new(0, 0, 0), 0)
+                               end
+                           end
+                       until v.Mob.Health == 0
+                   end)
+               end
+           end
+           wait()
+       end
+   end)
+end)
+
+Main:Toggle("Heal Players", false, function(Heal)
+   spawn(function()
+       getgenv().Heal = Heal
+
+       while getgenv().Heal do
+           for _,v in pairs(game:GetService("Players"):GetPlayers()) do
+               pcall(function()
+                   if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("First Aid Kit") or game:GetService("Players").LocalPlayer.Character:FindFirstChild("First Aid Kit") then
+                       game:GetService("Players").LocalPlayer.Backpack["First Aid Kit"]:FindFirstChild("HealEvent"):FireServer(v.Character:FindFirstChild("Humanoid"))
+                   end
+               end)
+           end
+           wait()
+       end
+   end)
+end)
+
+Main:Toggle("Heal Zombies [Troll]", false, function(Troll)
+   spawn(function()
+       getgenv().Troll = Troll
+
+       while getgenv().Troll do
+           for _,v in pairs(game:GetService("Workspace").Zombies:GetChildren()) do
+               if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("First Aid Kit") or game:GetService("Players").LocalPlayer.Character:FindFirstChild("First Aid Kit") then
+                   game:GetService("Players").LocalPlayer.Backpack["First Aid Kit"]:FindFirstChild("HealEvent"):FireServer(v:FindFirstChild("Mob"))
+               end
+           end
+           wait()
+       end
+   end)
+end)
+
+Main:Label("Settings", Color3.fromRGB(127, 143, 166))
+
+Main:Button("Destroy", function()
+   Library:Destroy()
+end)
+
+Main:Label("UI: Intrer#042\nScripts: arChEmiT", Color3.fromRGB(127, 143, 166))
+Main:Label("ZombieHeal: SilverBeast", Color3.fromRGB(127, 143, 166))
+
+Library:Keybind("P")
