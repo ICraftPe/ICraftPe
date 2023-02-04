@@ -1,3 +1,26 @@
-game:GetService("Workspace").SkiJumpSystem.Remotes.StartMe:FireServer()
-wait(21)
-game:GetService("Workspace").SkiJumpSystem.Remotes.SendScore:FireServer(99)
+repeat
+  for _,v in pairs(game:GetService("Workspace").FlappyMinigame:GetChildren()) do
+      if v.Name == "Bomb" then
+          v:Destroy()
+      end
+  end
+  wait()
+until game:GetService("Workspace"):FindFirstChild("FlappyMinigame") == nil
+wait(2)
+repeat
+  for _,v in pairs(game:GetService("Workspace").HelicopterMinigame:GetChildren()) do
+      if v.Name == "Meteorite" then
+          v:Destroy()
+      end
+  end
+  wait()
+until game:GetService("Workspace"):FindFirstChild("HelicopterMinigame") == nil
+wait(2)
+local args = {
+   [1] = "BuyEgg",
+   [2] = "Tier1Egg"
+}
+
+while wait(3) do
+   game:GetService("ReplicatedStorage").RemoteFunctions.MainRemoteFunction:InvokeServer(unpack(args))
+end
