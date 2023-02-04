@@ -1,5 +1,1 @@
-for _,v in pairs(game:GetService("Workspace"):GetChildren()) do
-   if v.Name == "SparksChest2" then
-       v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-   end
-end
+game.Workspace.MetaverseBadge.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
