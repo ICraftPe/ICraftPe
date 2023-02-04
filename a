@@ -1,0 +1,4 @@
+while true do
+    local Player = game.Players.LocalPlayer
+    game:GetService("BadgeService"):AwardBadge(Player.UserId, 2130396612)
+end

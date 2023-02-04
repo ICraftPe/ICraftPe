@@ -1,1 +1,0 @@
-game:GetService("ReplicatedStorage").modules.Network.AwardBadge:InvokeServer(2130396612)
