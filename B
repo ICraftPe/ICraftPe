@@ -1,0 +1,4 @@
+local args = {
+    [1] = 100000
+}
+game:GetService("ReplicatedStorage").RemoteFunctions.PlayerTransact:InvokeServer(unpack(args))
