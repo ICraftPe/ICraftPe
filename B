@@ -1,1 +1,5 @@
-game:GetService("Workspace").Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+for _,v in pairs(game:GetService("Workspace"):GetChildren()) do
+   if v.Name == "SparksChest2" then
+       v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+   end
+end
