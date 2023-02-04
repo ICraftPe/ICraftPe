@@ -1,1 +1,0 @@
-game:GetService("Workspace")["W3 ShoulderAccessory"].Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
