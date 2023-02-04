@@ -1,0 +1,19 @@
+-- remote to go into the plane for lazy people
+
+local args = {
+   [1] = game:GetService("Players").LocalPlayer,
+   [2] = Vector3.new(88.619750976563, 4989.4086914063, -173.08258056641),
+   [3] = true,
+   [4] = true
+}
+game:GetService("ReplicatedStorage").RemoteEvents.Gameplay.TeleportToPlane:FireServer(unpack(args))
+
+wait(1)
+
+-- this will make you win, you should get the badge at this point
+
+local l__ReplicatedStorage__4 = game:GetService("ReplicatedStorage");
+local l__RemoteEvents__7 = l__ReplicatedStorage__4:WaitForChild("RemoteEvents");
+
+local l__SurvivedHitGround__89 = l__RemoteEvents__7.Gameplay.SurvivedHitGround;
+l__SurvivedHitGround__89.FireServer(l__SurvivedHitGround__89);
