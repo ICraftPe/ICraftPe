@@ -1,0 +1,11 @@
+local l__CollectionService__2 = game:GetService("CollectionService");
+
+local idk = l__CollectionService__2:GetTagged("Shard")
+
+for _,v in pairs(idk) do
+   v.Collider.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+   wait(0.1)
+   print("possible shard, idk")
+end
+
+print("end")
