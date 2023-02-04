@@ -1,1 +1,1 @@
-game:GetService("TeleportService"):Teleport(6577825628)
+game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer("CompletedMetaverseChampionsEvent")
