@@ -1,0 +1,7 @@
+for _,v in pairs(game:GetService("Workspace")["Egg Hunt"]:GetChildren()) do
+   v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+
+wait(1)
+
+game:GetService("ReplicatedStorage").EggEvent:FireServer("Trade")
