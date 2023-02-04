@@ -1,9 +1,0 @@
-while wait(1) do
-   game:GetService("ReplicatedStorage").EventSystemEvents.PlayerEventInvite:FireServer()
-   if game.workspace:FindFirstChild("WrensEvent1") then
-       game.Workspace.WrensEvent1.Finish.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-   end
-   if game.workspace:FindFirstChild("WrensEvent2") then
-       game.Workspace.WrensEvent2.Finish.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-   end
-end

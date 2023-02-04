@@ -1,0 +1,7 @@
+for _,v in pairs(game.workspace:GetDescendants()) do
+   if v.Name == "TouchInterest" and v.Parent.Name == "End" then
+       v.Parent.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+       print("in")
+   end
+end
+game:GetService("Workspace").Maps.End.Light.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
