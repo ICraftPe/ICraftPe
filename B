@@ -1,0 +1,10 @@
+for _,v in pairs(game:GetService("Workspace").AntiCheat:GetChildren()) do
+   v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+
+wait(1)
+game:GetService("Workspace")["Wren's Treasure Quest Obby"].EntranceActivationPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+wait(3)
+
+game:GetService("Workspace")["Wren's Treasure Quest Obby"]["Reward Ring"]["Ring Win Zone"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
