@@ -1,11 +1,1 @@
-game:GetService("ReplicatedStorage").MetaversePrompt:FireServer(workspace.House.Gen1)
-wait(0.1)
-game:GetService("ReplicatedStorage").MetaversePrompt:FireServer(workspace.House.Gen2)
-wait(0.1)
-game:GetService("ReplicatedStorage").MetaversePrompt:FireServer(workspace.House.Gen3)
-wait(5)
-game:GetService("ReplicatedStorage").MetaverseCode:InvokeServer(game:GetService("Workspace").House.MetaverseMachine.ArcadeScreen.SurfaceGui.TextLabel.Text)
-wait(5)
-if workspace.House:FindFirstChild("GiftBox") then
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").House.GiftBox.CFrame
-end
+game:GetService("ReplicatedStorage").Meta:FireServer("badge")
