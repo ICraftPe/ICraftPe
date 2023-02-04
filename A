@@ -1,1 +1,1 @@
-game:GetService("ReplicatedStorage").Meta:FireServer("badge")
+game:GetService("TeleportService"):Teleport(6715130122)
