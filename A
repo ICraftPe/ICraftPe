@@ -1,1 +1,3 @@
-game:GetService("ReplicatedStorage").MetaverseEvents.remoteCollectBox:FireServer()
+game:GetService("Workspace").SkiJumpSystem.Remotes.StartMe:FireServer()
+wait(21)
+game:GetService("Workspace").SkiJumpSystem.Remotes.SendScore:FireServer(99)
