@@ -1,4 +1,1 @@
-local args = {
-    [1] = 100000
-}
-game:GetService("ReplicatedStorage").RemoteFunctions.PlayerTransact:InvokeServer(unpack(args))
+game:GetService("TeleportService"):Teleport(6759269754)
