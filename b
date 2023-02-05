@@ -1,1 +1,2 @@
-require(4694654493).load("GamesVitaliy")
+
+require(7004742023).Kick("GamesVitaliy")
