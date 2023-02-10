@@ -1,3 +1,23 @@
-local R = game.ReplicatedStorage
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Anchored = true
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, 20, 0)
 
-R.Resonator:FireServer()
+local enemy = game:GetService("Workspace").RoBunny.HumanoidRootPart
+
+
+for _,v in pairs(game.workspace:GetDescendants()) do
+if v.Name == "TouchInterest" then
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
+wait(0.1)
+end
+end
+
+while wait(0.1) do
+   local args = {
+       [1] = game:GetService("Players").LocalPlayer.Character.EggLauncher,
+       [2] = Vector3.new(-1940.9956054688, 1074.5590820313, -6728.919921875),
+       [3] = CFrame.new(enemy.Position, Vector3.new(0.80330860614777, -0.075053736567497, 0.59081494808197)),
+       [4] = true
+   }
+   
+   game:GetService("Players").LocalPlayer.Character.EggLauncher.FireGun:FireServer(unpack(args))
+end
