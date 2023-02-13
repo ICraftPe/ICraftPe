@@ -1,0 +1,327 @@
+local GamesList ={
+
+    ["2580982329"] = {2580982329,"Texting Simulator","https://pastebin.com/raw/fxibUGKA"},
+
+    ["735030788"] = { 735030788,"Royale High","https://pastebin.com/raw/6zUkLtud"},
+
+    ["734159876"] = { 734159876,"SharkBite - Works but buggy","https://pastebin.com/raw/4mUQT6Aa"},
+
+    ["2432005634"] = {2432005634,"A Wolf Or Other","https://pastebin.com/raw/2iFTxZxY"},
+
+    ["206640076"] = { 206640076,"Deathrun - May have to use script multiple times, start of a round","http://scripts.hockhenglim.tk/EggHunt2020/Deathrun"},
+
+    ["1224212277"] = {1224212277,"Mad City - Uses MadLads GUI - Do you even need to fight the boss?","https://pastebin.com/raw/SviDLtCf"},
+
+    ["3925890721"] = {3925890721,"Robot Inc","https://pastebin.com/raw/VWJbKrVD"},
+
+    ["54865335"] = {  54865335,  "Ultimate Driving",""},
+
+    ["1526666203"] = {1526666203,"Venture Island","https://pastebin.com/raw/ALdGs91h"},
+
+    ["137885680"] = { 137885680,"Zombie Rush",""},
+
+    ["166986752"] = { 166986752,"Plane Crazy","https://pastebin.com/raw/NSyMAJ2t"},
+
+    ["156220906"] = { 156220906,"Whatever Floats Your Boat",""},
+
+    ["920587237"] = { 920587237,"Adopt Me",""},
+
+    ["1090923299"] = {1090923299,"Astral Hearts",""},
+
+    ["3233893879"] = {3233893879,"Bad Business",""},
+
+    ["1537690962"] = {1537690962,"Bee Swarm Simulator",""},
+
+    ["3475397644"] = {3475397644,"Dragon Adventures",""},
+
+    ["2414851778 "] = {2414851778 ,"Dungeon Quest","https://pastebin.com/raw/rSk54gLi"},
+
+    ["2753554889"] = {2753554889,"Egg Simulator", "https://pastebin.com/raw/LP2UyNAP"},
+
+    ["277751860"] = { 277751860,"Epic Minigames",""},
+
+    ["3203685552"] = {3203685552,"BEAR (Alpha)","https://pastebin.com/raw/2QP3arwg"},
+
+    ["4504116810"] = {4504116810,"Flop","https://pastebin.com/raw/KpjzyEVi"},
+
+    ["3422530062"] = {3422530062,"Hotel Stories -  God mode, not auto","https://pastebin.com/raw/1p3ZSFYV"},
+
+    ["2773040896"] = {2773040896,"My Droplets","https://pastebin.com/raw/DDi9tt91"},
+
+    ["3398014311"] = {3398014311,"Restaurant Tycoon 2",""},
+
+    ["447452406"] = { 447452406,"Robloxian Highschool","https://pastebin.com/raw/0KkEwxsb"},
+
+    ["3823781113"] = {3823781113,"Saber Simulator - Should be auto","https://pastebin.com/raw/qVMsNHv1"},
+
+    ["35397735"] = {  35397735,  "Scuba Diving at Quill Lake","https://pastebin.com/raw/4BAm6VcJ"},
+
+    ["340416369"] = { 340416369,"Shard Seekers",""},
+
+    ["72193303"] = {  72193303,  "Sinking Ship",""},
+
+    ["18459893"] = {  18459893,  "Ski Resort","https://pastebin.com/raw/SibBdMJ9"},
+
+    ["132414630"] = { 132414630,"Speed Race - free map selection on vip server - script might kick you","https://pastebin.com/raw/tZssNPbx"},
+
+    ["3725149043"] = {3725149043,"Super Doomspire","https://pastebin.com/raw/2yg1eRKb"},
+
+    ["2317712696"] = {2317712696,"The Wild West","https://pastebin.com/raw/L0uUA9L5"},
+
+    ["204990346"] = { 204990346,"Tiny Tanks","https://pastebin.com/raw/uUAfAvnx"},
+
+    ["3260590327"] = {3260590327,"Tower Defense Simulator",""},
+
+    ["2960777560"] = {2960777560,"Treasure Quest",""},
+
+    ["70523152"] = {  70523152,  "Monsters of Etheria - Not 100% auto, might be broken","https://pastebin.com/raw/bkPvzF8r"},
+
+    ["3759927663"] = {3759927663,"Zombie Strike - Gun Mods - Left Alt to hide GUI","https://raw.githubusercontent.com/BadScripter/Scripts/master/ZombieStrikeGunMods.lua"},
+
+    ["3652381631"] = {3652381631,"Gravity Oasis - Requires fireclickdetector","https://pastebin.com/raw/aKhfWYFq"}, --Game teleports you to another one, requires fireclickdetector
+
+    ["3851622790"] = {3851622790,"Break In - Not 100% auto","https://pastebin.com/raw/KPZejmaX"},
+
+    ["2685347741"] = {2685347741,"Ghost Simulator",""},
+
+    ["537413528"] = {537413528,"Build A Boat For Treasure","https://pastebin.com/raw/p1vUHDVJ"},
+
+    ["2765907688"] = {2765907688,"Hero Havoc - Execute once, then again when in a battle","https://pastebin.com/raw/swqQwBgX"},
+
+    ["3360853050"] = {3360853050,"Super Striker League - Use bombs instead of the ball",""},
+
+    ["4572253581"] = {4572253581,"MURDER - Egg ESP","https://pastebin.com/raw/23Ba8fAL"},
+
+    ["2747834912"] = {2747834912,"eg!","https://pastebin.com/raw/74mvhGV8"},
+
+    ["1827671349"] = {1827671349,"Minery","https://pastebin.com/raw/MWkkL6R5"},
+
+    ["4752736749"] = {4752736749,"Time Travel Eggventures","https://pastebin.com/raw/ziyfwnzC"}
+
+}
+
+local CreditsList = {
+
+    ["Missingno74"] = {"Missingno74","https://v3rmillion.net/member.php?action=profile&uid=53721"},
+
+    ["Jxnt"] = {"RealJxnt","https://v3rmillion.net/member.php?action=profile&uid=1080235"},
+
+    ["plo"] = {"plo","https://v3rmillion.net/member.php?action=profile&uid=1033122"},
+
+    ["Bloomingzy32"] = {"Bloomingzy32","https://v3rmillion.net/member.php?action=profile&uid=55187"},
+
+    ["Lace"] = {"Lace","https://v3rmillion.net/member.php?action=profile&uid=556208"},
+
+    ["SilverBeast"] = {"SilverBeast","https://v3rmillion.net/member.php?action=profile&uid=795512"},
+
+    ["Roblox Thot"] = {"Roblox Thot","https://v3rmillion.net/member.php?action=profile&uid=1385488"},
+
+    ["Hacking101"] = {"Hacking101","https://v3rmillion.net/member.php?action=profile&uid=46"},
+
+    ["Dk4Q"] = {"Dk4Q","https://v3rmillion.net/member.php?action=profile&uid=1280470"},
+
+    ["MikeyMikey"] = {"MikeyMikey","https://v3rmillion.net/member.php?action=profile&uid=483408"},
+
+    ["TrashScripterF"] = {"TrashScripterF","https://v3rmillion.net/member.php?action=profile&uid=634782"},
+
+    ["healer"] = {"healer","https://v3rmillion.net/member.php?action=profile&uid=985111"},
+
+    ["TheUNBAnmAn"] = {"exxtremewa","https://v3rmillion.net/member.php?action=profile&uid=236249"},
+
+    ["WinRar"] = {"WinRar (From Syn Discord)", "https://i.imgur.com/SD6MqBR.png"},
+
+    ["TheGuyWithNoName"] = {"TheGuyWithNoName","https://v3rmillion.net/member.php?action=profile&uid=455799"},
+
+    ["ZFlakes"] = {"ZFlakes","https://v3rmillion.net/member.php?action=profile&uid=1207880"},
+
+    ["Derpy Lua"] = {"Derpy Lua","https://v3rmillion.net/member.php?action=profile&uid=77011"},
+
+    ["kanomi13"] = {"kanomi13","https://v3rmillion.net/member.php?action=profile&uid=706542"},
+
+    ["90467"] = {"90467","https://v3rmillion.net/member.php?action=profile&uid=206801"},
+
+    ["danielaity"] = {"danielaity","https://v3rmillion.net/member.php?action=profile&uid=350923"},
+
+    ["yorrin"] = {"yorrin","https://v3rmillion.net/member.php?action=profile&uid=636318"},
+
+    ["Aztup"] = {"Aztup","https://v3rmillion.net/member.php?action=profile&uid=682695"},
+
+    ["Burkino"] = {"Burkino", "https://v3rmillion.net/member.php?action=profile&uid=355321"}
+
+}
+
+local OtherPlaces = {
+
+    ["3803533582"] = "https://raw.githubusercontent.com/BadScripter/Scripts/master/ZombieStrikeGunMods.lua",
+
+    ["4741222916"] = "https://pastebin.com/raw/Me70jYZE",
+
+    ["2414851778"] = "https://pastebin.com/raw/rSk54gLi",
+
+    ["4865032448"] = "https://pastebin.com/raw/nuGq0RBW",
+
+    ["4701838474"] = "https://pastebin.com/raw/3nnRe2wp",
+
+    ["4879414196"] = "https://pastebin.com/raw/8S4iNTek",
+
+    ["4620170611"] = "https://pastebin.com/raw/2NqwyLmG",
+
+    ["368445129"] = "https://pastebin.com/raw/jfUsZ7t9",
+
+    ["4507873031"] = ""
+
+}
+
+if syn then
+
+    syn.queue_on_teleport('loadstring(game:HttpGet("https://pastebin.com/raw/MvkGyuH7"))()')
+
+end
+
+local TP = game:GetService("TeleportService")
+
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/SKZjdjdj"))();
+
+local Completed = library:CreateSection("Completed")
+
+local NotCompleted = library:CreateSection("Not made")
+
+local Credits = library:CreateSection("Credits")
+
+local Run = library:CreateSection("Run")
+
+local Manual = library:CreateSection("Manual")
+
+for i,v in pairs(GamesList) do
+
+if GamesList[i][3] == "" then
+
+   NotCompleted:Button(GamesList[i][2], function()
+
+  TP:Teleport(GamesList[i][1])
+
+   end)
+
+else
+
+   Completed:Button(GamesList[i][2], function()
+
+  TP:Teleport(GamesList[i][1])
+
+   end)
+
+end
+
+end
+
+for i,v in pairs(CreditsList) do
+
+Credits:Button(CreditsList[i][1], function()
+
+    setclipboard(CreditsList[i][2])
+
+end)
+
+end
+
+Run:Button("Run Script / Keybind: Right Alt", function()
+
+    if OtherPlaces[tostring(game.PlaceId)] then
+
+        loadstring(game:HttpGet(OtherPlaces[tostring(game.PlaceId)]))()
+
+    else
+
+        loadstring(game:HttpGet(GamesList[tostring(game.PlaceId)][3]))()
+
+    end
+
+end)
+
+Run:Button("",function() return end)
+
+Run:Button("Some games teleport you to another one, may have to run twice",function() return end)
+
+Manual:Button("Other scripts that are useful for a game",function() return end)
+
+Manual:Button("",function() return end)
+
+Manual:Button("Mad City - MadLads Gui", function()
+
+    loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
+
+end)
+
+Manual:Button("Copy thread for Admin/Dev/Star egg",function()
+
+    setclipboard("https://v3rmillion.net/showthread.php?tid=970657")
+
+end)
+
+--[[
+
+    Manual:Button("The Wild West - Temple Pathfind", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/bVaDgf8d"))()
+
+end)
+
+]]
+
+library:Ready()
+
+local EggHunt2020Gui = game.CoreGui:WaitForChild("ScreenGui")
+
+game:GetService("UserInputService").InputBegan:Connect(function(Key,IsChat)
+
+    if IsChat then return end 
+
+    if Key.KeyCode == Enum.KeyCode.LeftAlt then
+
+        EggHunt2020Gui.Enabled = (not EggHunt2020Gui.Enabled)
+
+    end
+
+    if Key.KeyCode == Enum.KeyCode.RightAlt then
+
+        if OtherPlaces[tostring(game.PlaceId)] then
+
+            loadstring(game:HttpGet(OtherPlaces[tostring(game.PlaceId)]))()
+
+        else
+
+            loadstring(game:HttpGet(GamesList[tostring(game.PlaceId)][3]))()
+
+        end
+
+    end
+
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+
+	Title = "Thank the people in Credits",	Text = "This script wouldn't exist without them",
+
+	Duration = 60,
+
+})
+
+game.StarterGui:SetCore("SendNotification", {
+
+	Title = "KeyBinds",
+
+	Text = "LeftAlt: Toggle Gui",
+
+	Duration = 10,
+
+})
+
+game.StarterGui:SetCore("SendNotification", {
+
+	Title = "KeyBinds",
+
+	Text = "RightAlt: Run Script",
+
+	Duration = 10,
+
+})
