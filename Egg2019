@@ -3,94 +3,48 @@ local function tp(...)
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
 
-end
-
 tp(-100.2, 310, 192.4)
 
 local function tp(...)
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
 
-end
-
 tp(129.602, 254.502, 115.25)
 
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(0.926804, 6960.39, -90.9332)
 
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(2.70233, 7118.6, -249.088)
 
--- Ironman Egg:
-
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(367.052, 490.181, 899.399)
 
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(-1899.7, 1.43116, -45769.5)
 
--- Captain America Egg:
-
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(-163.897, 516.376, 943.747)
 
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(-1802.62, 200.232, -44400)
 
--- Captain Marvel Egg:
-
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(-612.128, 804.784, 742.066)
 
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
-
-end
 
 tp(-2610.83, 508.622, 1321.28)
 
-
-
-local function tp(...)
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(...))
 
-end
-
 tp(479.859, 614.177, 371.373) --- edit
+
+end
