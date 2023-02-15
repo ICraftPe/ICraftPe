@@ -1,2 +1,1 @@
-local repl = game.ReplicatedStorage:WaitForChild("BroomSuccessEvent");
-repl:FireServer()
+game.ReplicatedStorage.BroomSuccessEvent:FireServer()
