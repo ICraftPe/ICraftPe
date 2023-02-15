@@ -1,2 +1,1 @@
-local TE = game.ReplicatedStorage.ToolsEvents
-TE["Winner's Tool Get Event"]:FireServer()
+game.StarterGui.MainUI.ChooseAward.Visible = true
