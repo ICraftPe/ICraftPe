@@ -1,0 +1,2 @@
+local TE = game.ReplicatedStorage.ToolsEvents
+TE["Winner's Tool Get Script']:FireServer()
