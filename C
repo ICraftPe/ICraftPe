@@ -1,1 +1,1 @@
-game:GetService("TeleportService"):Teleport(6668795671, LocalPlayer)
+game:GetService("TeleportService"):Teleport(6668795671)
