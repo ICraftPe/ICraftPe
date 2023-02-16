@@ -1,0 +1,3 @@
+game.ReplicatedStorage.awardedStuffEvent:FireServer()
+game.ReplicatedStorage.completedGamesEvent:FireServer()
+game.ReplicatedStorage.boxStateEvent:FireServer()
