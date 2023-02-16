@@ -1,1 +1,8 @@
-game.ReplicatedStorage.RemoteEvents.MilkPickup:FireServer()
+game:GetService("ReplicatedStorage").Remotes.BossFight:FireServer("AJ Striker")
+
+wait(5)
+
+for i=1,100 do
+game:GetService("ReplicatedStorage").Remotes.Punch:FireServer(workspace:FindFirstChild("AJ Striker"))
+wait(0.5)
+end
