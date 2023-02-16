@@ -1,0 +1,5 @@
+game.ReplicatedStorage.BuildingParts.BindTool:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.BuildingParts.PaintingTool:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.BuildingParts.PropertiesTool:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.BuildingParts.ScalingTool:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.BuildingParts.TrowelTool:Clone().Parent = game.Players.LocalPlayer.Backpack
