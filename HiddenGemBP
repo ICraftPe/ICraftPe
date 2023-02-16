@@ -1,0 +1,3 @@
+game.ReplicatedStorage.HiddenGem:FireServer()
+game.ReplicatedStorage.TimeEventEasy:Remove()
+game.ReplicatedStorage.TimeEventHard:Remove()
