@@ -1,0 +1,11 @@
+game.ReplicatedStorage.Gear.bomb:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.cola:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.fusion:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.gravity:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.hook:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.hourglass:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.jump:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.killpart:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.speed:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.trowel:Clone().Parent = game.Players.LocalPlayer.Backpack
+game.ReplicatedStorage.Gear.yxterminator:Clone().Parent = game.Players.LocalPlayer.Backpack
