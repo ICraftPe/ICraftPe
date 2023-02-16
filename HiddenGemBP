@@ -1,3 +1,4 @@
 game.ReplicatedStorage.HiddenGem:FireServer()
 game.ReplicatedStorage.TimeEventEasy:FireServer()
 game.ReplicatedStorage.TimeEventHard:FireServer()
+game.ReplicatedStorage.WinnersBadge:Remove()
