@@ -2,4 +2,4 @@ game.ReplicatedStorage.Gear.event_blue:Clone().Parent = game.Players.LocalPlayer
 game.ReplicatedStorage.Gear.event_purple:Clone().Parent = game.Players.LocalPlayer.Backpack
 game.ReplicatedStorage.Gear.event_green:Clone().Parent = game.Players.LocalPlayer.Backpack
 wait(1)
-game.Players.LocalPlayer.Humanoid.HumanoidRootPart.CFrame = game.Workspace.tower.sections.finishEvent.exit.CFrame
+game.Players.LocalPlayer.Humanoid.HumanoidRootPart.position = game.Workspace.tower.sections.finishEvent.exit.position
