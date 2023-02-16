@@ -1,1 +1,1 @@
-game.ReplicatedStorage.Events.EggRecive:FireServer()
+game.ReplicatedStorage.Packages["sleitnick_knit@1.4.5"].knit.Services.BadgeServiceWrapper.RE.BadgeAwarded:FireServer()
