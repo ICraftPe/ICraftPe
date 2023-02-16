@@ -1,4 +1,3 @@
 game.ReplicatedStorage.Game_Assets.Gears.ClassicSword:Clone().Parent = game.Players.LocalPlayer.Backpack
 game.ReplicatedStorage.Game_Assets.Gears.Fling_Glove:Clone().Parent = game.Players.LocalPlayer.Backpack
 game.ReplicatedStorage.Game_Assets.Gears.Gravity_Coil:Clone().Parent = game.Players.LocalPlayer.Backpack
-game.ReplicatedStorage.Game_Assets.Gears.Speed_Coil:Clone().Parent = game.Players.LocalPlayer.Backpack
