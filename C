@@ -1,1 +1,3 @@
-game.ReplicatedStorage.Remotes.RBBattlesTP:FireServer()
+game.ReplicatedStorage.RemoteEvent.GetAllPlayerScoreBadgeEvent:FireServer()
+game.ReplicatedStorage.RemoteEvent.GetFriendScoreBadgeEvent:FireServer()
+game.ReplicatedStorage.RemoteEvent.GetGameScoreBadgeEvent:FireServer()
