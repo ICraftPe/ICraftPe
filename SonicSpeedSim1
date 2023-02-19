@@ -1,5 +1,5 @@
 for i,v in pairs(game:GetDescendants()) do
- if v.Name == "FiveOrbs" then
+ if v.Name == "Credit" then
  v.CFrame = game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame
  end
  end
