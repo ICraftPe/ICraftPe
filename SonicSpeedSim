@@ -1,4 +1,4 @@
-for i,v in pairs(game:GetDescendants())
+for i,v in pairs(game:GetDescendants()) do
  if v.Name == "FiveOrbs" then
  v.CFrame = game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame
  end
