@@ -1,0 +1,1 @@
+game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame = CFrame.new(-293, 20.5000114, -448, 1, 0, 0, 0, 1, 0, 0, 0, 1)
