@@ -1,5 +1,5 @@
 for i,v in pairs(game:GetDescendants())
- if v.Name == "ChaosOrbSpawn" then
+ if v.Name == "FiveOrbs" then
  v.CFrame = game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame
  end
  end
