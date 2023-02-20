@@ -1,1 +1,3 @@
-game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame = CFrame.new(26.2492008, 14.0662689, 123.761002, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame = CFrame.new(128.994156, 10.812665, -55.4774094, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+wait(30)
+game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame = CFrame.new(215.922638, 55.1068687, -9.08814335, 0.000818038592, 0.666689754, -0.745334923, -0.999999583, 0.000873693905, -0.000316039746, 0.000440494128, 0.745334864, 0.666690171)
