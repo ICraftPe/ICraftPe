@@ -4438,7 +4438,7 @@ task.spawn(C_4e);
 local function C_51()
 	local script = AZY["51"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Dex"))()
 	end)
 end;
 task.spawn(C_51);
@@ -4805,7 +4805,7 @@ task.spawn(C_104);
 local function C_108()
 	local script = AZY["108"];
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Dex"))()
 	end)
 end;
 task.spawn(C_108);
