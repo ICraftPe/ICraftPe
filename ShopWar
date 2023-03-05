@@ -1,0 +1,7 @@
+while true do
+wait(0.1)
+game.Workspace.EventItemsHunt.HumanoidRootPart.CFrame = CFrame.new(-17.3845997, 1.37781, -268.480988, -0.481541574, 4.41160104e-08, -0.87642324, 1.47896575e-08, 1, 4.22103987e-08, 0.87642324, 7.3640618e-09, -0.481541574)
+wait(15)
+game.Workspace.EventItemsHunt.HumanoidRootPart.CFrame = CFrame.new(5.30544949, 58.7044601, -176.797852, -0.69418937, -0.719676137, -0.0129356617, -0.524825275, 0.518374562, -0.675163865, 0.492604822, -0.461902618, -0.737554371)
+wait(15)
+end
