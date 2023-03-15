@@ -1,4 +1,4 @@
-local KICK_MESSAGE = "You have been kicked from the game."
+local KICK_MESSAGE = "You have been banned from the game (FOREVER)."
  
 -- Create GUI
 local gui = Instance.new("ScreenGui")
