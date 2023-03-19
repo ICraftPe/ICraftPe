@@ -1,0 +1,6 @@
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == 'SingleToySpawner' then
+v.CFrame = game:GetService("Workspace").GamesVitaliy.HumanoidRootPart.CFrame
+wait(1)
+end
+end
