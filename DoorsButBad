@@ -1,0 +1,8 @@
+local player = game.Players.LocalPlayer
+local n = player.Name
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == "Bookshelf", "Couch", "falling shelf1", "falling shelf2", "falling shelf3", "falling shelf4", "falling shelf5", "falling shelf6", "falling shelf7", "falling shelf8", "falling shelf9", "falling shelf10", "falling shelf11", "falling shelf12", "falling shelf13", "falling shelf14", "falling shelf15", "falling shelf16", "falling shelf17", "falling shelf18", "Dummy", "Mr. Halarios", "Plant", "Chair", "Table", "Rush2", "Locked_Door", "Rush", "the figure", "Model", "Code door", "hand", "Sneak Attack", "Closet", "Closet1", "Closet2", "Closet3", "Closet4", "Closet5", "Closet6", "Closet7", "Closet8", "Closet9", "Closet10", "Closet11", "Closet12", "Closet13", "Closet14", "Closet15", "Closet16", "Closet17", "Closet18", "roblox sucks", "Couchfly", "Couchfly1", "Couchfly2", "Couchfly3", "Couchfly4", "Couchfly5", "Doornotreal", "hand1", "hand2", "hand3", "hand4", "StallDoor", "Toilet", "Shriek", "Disclaimer Gui", "ses shelf", "ses shelf1", "ses shelf2", "ses shelf3", "ses shelf4", "ses shelf5", "ses shelf6", "ses shelf7", "ses shelf8", "ses shelf9", "ses shelf10", "Rushtest", "Drawer", "Drawer1", "Drawer2", "Drawer3", "Drawer4", "Drawer5", "Drawer6", "Drawer7", "Drawer8", "Drawer9", "Drawer10", "Comfy Chair", "Hide", "shade", "Hide1", "Hide2", "Hide3", "Hide4", "Hide5", "Hide6", "hhand1", "hhand2", "hhand6", "hhand7", "Start timer", "The Rat", "Speedrun", "Backwards", "the figure2", "Metaldoor", "lever", "Kill brick" then
+v:Remove()
+game.Workspace.n.Humanoid.WalkSpeed = 30
+end
+end
