@@ -4,10 +4,12 @@ local CanAutoUnlockDoors = true
 local CanPullTheLevers = true
 local cooldown = true
 local cooldownwait = 0.5
+
 do
 	local UIS = game:GetService("UserInputService")
 	local CF = CFrame.new
 	local LatestRoom = game:GetService("ReplicatedStorage").GameData.LatestRoom
+
 	UIS.InputBegan:Connect(function(input, typing)
     	if typing then return end
     	if input.KeyCode == Keybind then
