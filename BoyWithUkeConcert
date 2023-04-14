@@ -1,0 +1,7 @@
+if game.PlaceId == 11758008778 then
+    game:GetService("TeleportService"):Teleport(12927333455)
+else
+    if game.PlaceId == 12927333455 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/BWUConcertAuto"))()
+    end
+end
