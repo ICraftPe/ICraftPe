@@ -118,6 +118,18 @@ local args = {
 game:GetService("ReplicatedStorage").Packages._Index["kumarion_knit-rojo@0.2.0"]["knit-rojo"].Services.BridgeService.RF.Action:InvokeServer(unpack(args))
 
 local args = {
+    [1] = "BridgePurchase3"
+}
+
+game:GetService("ReplicatedStorage").Packages._Index["kumarion_knit-rojo@0.2.0"]["knit-rojo"].Services.BridgeService.RF.Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "BridgePurchase2"
+}
+
+game:GetService("ReplicatedStorage").Packages._Index["kumarion_knit-rojo@0.2.0"]["knit-rojo"].Services.BridgeService.RF.Purchase:InvokeServer(unpack(args))
+
+local args = {
     [1] = "BridgePurchase1"
 }
 
