@@ -164,5 +164,40 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+else
+print("YOU DON'T HAVE AT LEAST 77 HONEY! EARN >77 HONEY AND TRY EXECUTE AGAIN!")
+end
+end
+
+if game.PlaceId == 734159876 then
+for i,v in pairs(game:GetService("Workspace").SonarBuoys.Buoys:GetDescendants()) do
+if v:IsA("MeshPart") then
+local esp = Instance.new("BoxHandleAdornment")
+esp.Parent = v
+esp.Name = "Buoy"
+esp.Adornee = v
+esp.AlwaysOnTop = true
+esp.ZIndex = 0
+esp.Size = v.Size
+esp.Transparency = 0.3
+esp.Color = BrickColor.new("Persimmon")
+end
+end
+
+for i,v in pairs(game:GetService("Workspace").BoatWreckage.BoatWreck.BoatWreck:GetDescendants()) do
+if v:IsA("MeshPart") or v:IsA("Part") then
+local esp = Instance.new("BoxHandleAdornment")
+esp.Parent = v
+esp.Name = "Ship"
+esp.Adornee = v
+esp.AlwaysOnTop = true
+esp.ZIndex = 0
+esp.Size = v.Size
+esp.Transparency = 0.3
+esp.Color = BrickColor.new("Lime green")
+end
+end
+while wait() do
+game.Workspace.Events.GamePasses.EquipScubaGear:FireServer()
 end
 end
