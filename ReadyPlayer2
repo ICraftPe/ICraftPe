@@ -201,3 +201,7 @@ while wait() do
 game.Workspace.Events.GamePasses.EquipScubaGear:FireServer()
 end
 end
+
+if game.PlaceId == 447452406 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.76648, -585.585327, 7918.54688, 0.947387159, 0.092421025, -0.306457102, -8.56906439e-08, 0.957409263, 0.288734287, 0.320089996, -0.273543119, 0.907037258)
+end
