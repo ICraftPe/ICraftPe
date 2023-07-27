@@ -165,7 +165,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
 else
-print("YOU DON'T HAVE AT LEAST 77 HONEY! EARN >77 HONEY AND TRY EXECUTE AGAIN!")
+game.Players.LocalPlayer:Kick("YOU DON'T HAVE AT LEAST 77 HONEY! EARN >77 HONEY AND TRY EXECUTE AGAIN!")
 end
 end
 
