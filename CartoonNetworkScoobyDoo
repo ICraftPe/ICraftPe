@@ -1,0 +1,187 @@
+local args = {
+    [1] = {
+        ["2023_Halloween_ScoobySnacksCollected"] = {
+            ["013"] = true,
+            ["026"] = true,
+            ["027"] = true
+        },
+        ["emotesData"] = {
+            [1] = "rbxassetid://10846072063",
+            [2] = "rbxassetid://10846068143",
+            [3] = "rbxassetid://10846067923",
+            [4] = "rbxassetid://10846068287",
+            [5] = "",
+            [6] = "",
+            [7] = "",
+            [8] = "rbxassetid://10846067763"
+        },
+        ["dailyChallenge"] = {
+            ["Progress"] = 10000000000,
+            ["ChallengeID"] = "daily_complete_bmx",
+            ["hasClaimed"] = false
+        },
+        ["dailyRewardStreakData"] = {
+            ["HasClaimedReward"] = false,
+            ["dailyRewardsEarned"] = 7,
+            ["dailyRewardsVersionNumber"] = 7
+        },
+        ["brandExp"] = {
+            ["COTC"] = 100000000,
+            ["B10"] = 100000000,
+            ["TTG"] = 1000000000
+        },
+        ["lastLogin"] = {
+            ["Year"] = "2023",
+            ["Day"] = "25",
+            ["Month"] = "October"
+        },
+        ["OnboardingData"] = true,
+        ["dataVersion"] = 4,
+        ["equipData"] = {},
+        ["questData"] = {
+            ["climateCompleted"] = {}
+        },
+        ["IslandTourData"] = {
+            ["AWOG_Island_Tour"] = true
+        },
+        ["expTotal"] = 100000000000000000000,
+        ["UGCProgression"] = {
+            ["RavenMask_UnlockTime"] = 1690295601
+        },
+        ["dailyMinigames"] = {
+            ["Bike"] = 0,
+            ["BananaJoe"] = 0,
+            ["Trike"] = 0
+        },
+        ["pickupsData"] = {
+            ["ttg_logo"] = 1,
+            ["ben10_logo"] = 1,
+            ["TTG"] = math.huge,
+            ["wbb_logo"] = 1,
+            ["AWOG"] = math.huge,
+            ["COTC"] = math.huge,
+            ["cotc_logo"] = 1,
+            ["WBB"] = math.huge,
+            ["ttg_beastboy_ears"] = 1,
+            ["CNToken"] = math.huge,
+            ["B10"] = math.huge,
+            ["Scooby_Hoodie"] = 1,
+            ["gumball_logo"] = 1
+        },
+        ["dailyRides"] = {
+            ["robot"] = 20230724,
+            ["teacups"] = 20230724,
+            ["sofa drop"] = 20230724,
+            ["Seat"] = 20230724,
+            ["FerrisWheel"] = 20230724,
+            ["box_swing"] = 20230724,
+            ["log_ride"] = 20230724
+        },
+        ["gameData"] = {},
+        ["achievementData"] = {
+            ["Complete_Onboarding"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_B10"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Ride_LogFlume"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_AWOG"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Ride_FerrisWheel"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Use_Map"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Use_Emote"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_WBB"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_ALL"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Complete_Challenge"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_COTC"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Use_Spring"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["LevelUp_WBB"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Win_Coins"] = {
+                ["Badges"] = {}
+            },
+            ["Use_Trampoline"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Ride_All"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Visit_Totem"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Top_Leaderboard"] = {
+                ["Count"] = 1,
+                ["Badges"] = {}
+            },
+            ["Spend_Coins"] = {
+                ["Badges"] = {}
+            }
+        },
+        ["UgcEventProgress"] = {
+            ["ScoobyDoo2023HalloweenEvent"] = {
+                ["ExpCollected"] = 2000,
+                ["ScoobySnacks"] = 25,
+                ["MysteryComplete"] = 1
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("ProgressionDataService"):WaitForChild("RF"):WaitForChild("HandlePlayerDataSetClient"):InvokeServer(unpack(args))
