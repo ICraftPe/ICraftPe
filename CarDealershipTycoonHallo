@@ -87,3 +87,183 @@ wait(6)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 11
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 12
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 13
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 14
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 15
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 16
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 17
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 18
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 19
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 20
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 21
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 22
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 23
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 24
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 25
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 26
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 27
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 28
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 29
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+wait(6)
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 30
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
