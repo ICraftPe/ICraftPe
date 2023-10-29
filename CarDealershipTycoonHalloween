@@ -1,0 +1,95 @@
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 2
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 3
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 4
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 5
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 6
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 7
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 8
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 9
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+  local args = {
+    [1] = "Knock",
+    [2] = {
+        ["Index"] = 10
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
+
+for i,v in pairs(game.Workspace.HalloweenHouses:GetDescendants()) do
+if v.Name == "Crazy" then
+v:Remove()
+end
+end
