@@ -6,7 +6,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -15,7 +15,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -24,7 +24,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -33,7 +33,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -42,7 +42,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -51,7 +51,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -60,7 +60,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -69,7 +69,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
 local args = {
     [1] = "Knock",
     [2] = {
@@ -78,7 +78,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
+wait(6)
   local args = {
     [1] = "Knock",
     [2] = {
@@ -87,9 +87,3 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Event
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EventController"):WaitForChild("PerformAction"):FireServer(unpack(args))
-
-for i,v in pairs(game.Workspace.HalloweenHouses:GetDescendants()) do
-if v.Name == "Crazy" then
-v:Remove()
-end
-end
