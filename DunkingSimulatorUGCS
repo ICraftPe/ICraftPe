@@ -1,0 +1,5 @@
+local UGCs = {2127480708, 2127480712, 2127480711, 2129357352, 2129357355, 2129357358, 2129357362}
+
+for i = 1,#UGCs do
+game.ReplicatedStorage.AwardBadge:FireServer(UGCs[i])
+end
