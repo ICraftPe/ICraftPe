@@ -1,0 +1,12 @@
+game.Players.PlayerAdded:Connect(function(Player)
+    if not game.BadgeService:UserHasBadgeAsync(Player.UserId, BadgeId) then
+        game.BadgeService:AwardBadge(Player.UserId, BadgeId)
+    end
+end
+
+-- game = игра, используется во всех скриптах
+-- Players = игроки, которые играют в игру
+-- PlayerAdded = функция, которая выполняет скрипт когда игрок заходит в игру
+-- Вторая строка проверяет, есть ли у игрока бейдж, или же нету.
+-- Эсли бейдж не обнаружен, то 3 строка выдаст его
+-- BadgeId нужно заменить на айди бейджа
