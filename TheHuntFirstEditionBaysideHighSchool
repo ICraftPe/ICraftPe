@@ -3,9 +3,9 @@ local args = {
         ["NoteClicked"] = {
             [1] = {
                 ["timeClicked"] = 0.9560855467404639,
-                ["judge"] = "Miss",
+                ["judge"] = "Perfect",
                 ["index"] = 2,
-                ["score"] = -100
+                ["score"] = 20000
             },
             [2] = {
                 ["timeClicked"] = 1.5541147094752108,
@@ -1894,15 +1894,15 @@ local args = {
                 ["score"] = -100
             }
         },
-        ["Score"] = 30000,
-        ["Combo"] = 283,
-        ["ComboHighest"] = 283,
+        ["Score"] = 20000,
+        ["Combo"] = 50,
+        ["ComboHighest"] = 50,
         ["Grade"] = {
-            [1] = "A",
+            [1] = "C",
             [2] = 0,
             [3] = Color3.new(0.2549019753932953, 0.2549019753932953, 0.2549019753932953)
         },
-        ["Percentage"] = 100
+        ["Percentage"] = 75
     }
 }
 
