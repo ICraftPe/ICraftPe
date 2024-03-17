@@ -1,1 +1,15 @@
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForClild("EquipToolRF"):InvokeServer("Easter2024_Egg", "Equip")
+game:GetService("ReplicatedStorage").Remotes.EquipToolRF:InvokeServer("Easter2024_Egg", "Equip")
+
+local args = {
+    [1] = {
+        ["Normal"] = Vector3.yAxis,
+        ["RayPos"] = Vector3.new(-30.495361328125, 1.024017572402954, 43.848854064941406),
+        ["InRange"] = true,
+        ["RayPath"] = "Workspace.Art.NewSquare.Ground.Ground",
+        ["RayPart"] = workspace:WaitForChild("Art"):WaitForChild("NewSquare"):WaitForChild("Ground"):WaitForChild("Ground"),
+        ["Offset"] = CFrame.new(-4.259494781494141, 3.25, 8.858535766601562, 0, 0, -1, 0, 1, 0, 1, 0, 0),
+        ["ToolName"] = "Easter2024_Egg"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ToolActivatedRE"):FireServer(unpack(args))
