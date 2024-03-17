@@ -1,0 +1,7 @@
+local RF = game:GetService("ReplicatedStorage"):WaitForChild("RF")
+
+for i = 1,1000 do
+    task.spawn(function()
+        RF:InvokeServer({"Server", "RoundManager", "UpdateScore"}, {350})
+    end)
+end
