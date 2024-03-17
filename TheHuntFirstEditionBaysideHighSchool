@@ -1,0 +1,1909 @@
+local args = {
+    [1] = {
+        ["NoteClicked"] = {
+            [1] = {
+                ["timeClicked"] = 0.9560855467404639,
+                ["judge"] = "Miss",
+                ["index"] = 2,
+                ["score"] = -100
+            },
+            [2] = {
+                ["timeClicked"] = 1.5541147094752108,
+                ["judge"] = "Miss",
+                ["index"] = 4,
+                ["score"] = -100
+            },
+            [3] = {
+                ["timeClicked"] = 2.08019231525915,
+                ["judge"] = "Miss",
+                ["index"] = 3,
+                ["score"] = -100
+            },
+            [4] = {
+                ["timeClicked"] = 2.646921477147511,
+                ["judge"] = "Miss",
+                ["index"] = 5,
+                ["score"] = -100
+            },
+            [5] = {
+                ["timeClicked"] = 3.277243866452149,
+                ["judge"] = "Miss",
+                ["index"] = 1,
+                ["score"] = -100
+            },
+            [6] = {
+                ["timeClicked"] = 3.7915167760636126,
+                ["judge"] = "Miss",
+                ["index"] = 6,
+                ["score"] = -100
+            },
+            [7] = {
+                ["timeClicked"] = 4.430218334176711,
+                ["judge"] = "Miss",
+                ["index"] = 7,
+                ["score"] = -100
+            },
+            [8] = {
+                ["timeClicked"] = 4.933299052395991,
+                ["judge"] = "Miss",
+                ["index"] = 8,
+                ["score"] = -100
+            },
+            [9] = {
+                ["timeClicked"] = 5.556993323245219,
+                ["judge"] = "Miss",
+                ["index"] = 9,
+                ["score"] = -100
+            },
+            [10] = {
+                ["timeClicked"] = 6.118857378938369,
+                ["judge"] = "Miss",
+                ["index"] = 10,
+                ["score"] = -100
+            },
+            [11] = {
+                ["timeClicked"] = 6.688814154693059,
+                ["judge"] = "Miss",
+                ["index"] = 11,
+                ["score"] = -100
+            },
+            [12] = {
+                ["timeClicked"] = 7.245205818542413,
+                ["judge"] = "Miss",
+                ["index"] = 12,
+                ["score"] = -100
+            },
+            [13] = {
+                ["timeClicked"] = 7.804702169128827,
+                ["judge"] = "Miss",
+                ["index"] = 13,
+                ["score"] = -100
+            },
+            [14] = {
+                ["timeClicked"] = 8.372734459915332,
+                ["judge"] = "Miss",
+                ["index"] = 14,
+                ["score"] = -100
+            },
+            [15] = {
+                ["timeClicked"] = 8.936914670148067,
+                ["judge"] = "Miss",
+                ["index"] = 15,
+                ["score"] = -100
+            },
+            [16] = {
+                ["timeClicked"] = 9.508181850292853,
+                ["judge"] = "Miss",
+                ["index"] = 16,
+                ["score"] = -100
+            },
+            [17] = {
+                ["timeClicked"] = 10.075579258480243,
+                ["judge"] = "Miss",
+                ["index"] = 17,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [18] = {
+                ["timeClicked"] = 10.511259986885957,
+                ["judge"] = "Miss",
+                ["index"] = 17,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [19] = {
+                ["timeClicked"] = 10.947449046054057,
+                ["judge"] = "Miss",
+                ["index"] = 18,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [20] = {
+                ["timeClicked"] = 12.114262583532504,
+                ["judge"] = "Miss",
+                ["index"] = 18,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [21] = {
+                ["timeClicked"] = 12.360626648047141,
+                ["judge"] = "Miss",
+                ["index"] = 19,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [22] = {
+                ["timeClicked"] = 12.799478216895036,
+                ["judge"] = "Miss",
+                ["index"] = 19,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [23] = {
+                ["timeClicked"] = 13.241848005780152,
+                ["judge"] = "Miss",
+                ["index"] = 35,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [24] = {
+                ["timeClicked"] = 14.369637071021966,
+                ["judge"] = "Miss",
+                ["index"] = 35,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [25] = {
+                ["timeClicked"] = 14.679474579968623,
+                ["judge"] = "Miss",
+                ["index"] = 20,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [26] = {
+                ["timeClicked"] = 15.117140210100583,
+                ["judge"] = "Miss",
+                ["index"] = 20,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [27] = {
+                ["timeClicked"] = 15.558559483715467,
+                ["judge"] = "Miss",
+                ["index"] = 36,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [28] = {
+                ["timeClicked"] = 16.694536044129304,
+                ["judge"] = "Miss",
+                ["index"] = 36,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [29] = {
+                ["timeClicked"] = 16.94546364513891,
+                ["judge"] = "Miss",
+                ["index"] = 21,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [30] = {
+                ["timeClicked"] = 17.37922875476735,
+                ["judge"] = "Miss",
+                ["index"] = 22,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [31] = {
+                ["timeClicked"] = 18.69857093957918,
+                ["judge"] = "Miss",
+                ["index"] = 21,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [32] = {
+                ["timeClicked"] = 18.69857093957918,
+                ["judge"] = "Miss",
+                ["index"] = 22,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [33] = {
+                ["timeClicked"] = 19.25789697361844,
+                ["judge"] = "Miss",
+                ["index"] = 23,
+                ["score"] = -100
+            },
+            [34] = {
+                ["timeClicked"] = 19.698301671871118,
+                ["judge"] = "Miss",
+                ["index"] = 25,
+                ["score"] = -100
+            },
+            [35] = {
+                ["timeClicked"] = 20.13467249167817,
+                ["judge"] = "Miss",
+                ["index"] = 24,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [36] = {
+                ["timeClicked"] = 21.27212926638978,
+                ["judge"] = "Miss",
+                ["index"] = 24,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [37] = {
+                ["timeClicked"] = 21.52129748729723,
+                ["judge"] = "Miss",
+                ["index"] = 37,
+                ["score"] = -100
+            },
+            [38] = {
+                ["timeClicked"] = 21.96875009206789,
+                ["judge"] = "Miss",
+                ["index"] = 38,
+                ["score"] = -100
+            },
+            [39] = {
+                ["timeClicked"] = 22.397896441497974,
+                ["judge"] = "Miss",
+                ["index"] = 26,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [40] = {
+                ["timeClicked"] = 23.519596441515855,
+                ["judge"] = "Miss",
+                ["index"] = 26,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [41] = {
+                ["timeClicked"] = 23.83467509491103,
+                ["judge"] = "Miss",
+                ["index"] = 27,
+                ["score"] = -100
+            },
+            [42] = {
+                ["timeClicked"] = 24.219689155795745,
+                ["judge"] = "Miss",
+                ["index"] = 28,
+                ["score"] = -100
+            },
+            [43] = {
+                ["timeClicked"] = 24.65289279712098,
+                ["judge"] = "Miss",
+                ["index"] = 29,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [44] = {
+                ["timeClicked"] = 24.65289279712098,
+                ["judge"] = "Miss",
+                ["index"] = 30,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [45] = {
+                ["timeClicked"] = 25.83906935048955,
+                ["judge"] = "Miss",
+                ["index"] = 29,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [46] = {
+                ["timeClicked"] = 25.83906935048955,
+                ["judge"] = "Miss",
+                ["index"] = 30,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [47] = {
+                ["timeClicked"] = 26.094545396843127,
+                ["judge"] = "Miss",
+                ["index"] = 31,
+                ["score"] = -100
+            },
+            [48] = {
+                ["timeClicked"] = 26.094545396843127,
+                ["judge"] = "Miss",
+                ["index"] = 32,
+                ["score"] = -100
+            },
+            [49] = {
+                ["timeClicked"] = 26.530117790081672,
+                ["judge"] = "Miss",
+                ["index"] = 33,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [50] = {
+                ["timeClicked"] = 26.530117790081672,
+                ["judge"] = "Miss",
+                ["index"] = 34,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [51] = {
+                ["timeClicked"] = 28.090306333133153,
+                ["judge"] = "Miss",
+                ["index"] = 33,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [52] = {
+                ["timeClicked"] = 28.090306333133153,
+                ["judge"] = "Miss",
+                ["index"] = 34,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [53] = {
+                ["timeClicked"] = 28.399150079914502,
+                ["judge"] = "Miss",
+                ["index"] = 39,
+                ["score"] = -100
+            },
+            [54] = {
+                ["timeClicked"] = 28.835363100149802,
+                ["judge"] = "Miss",
+                ["index"] = 40,
+                ["score"] = -100
+            },
+            [55] = {
+                ["timeClicked"] = 29.27826101598995,
+                ["judge"] = "Miss",
+                ["index"] = 41,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [56] = {
+                ["timeClicked"] = 30.39598184717553,
+                ["judge"] = "Miss",
+                ["index"] = 41,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [57] = {
+                ["timeClicked"] = 30.65180475903409,
+                ["judge"] = "Miss",
+                ["index"] = 42,
+                ["score"] = -100
+            },
+            [58] = {
+                ["timeClicked"] = 31.086330796458892,
+                ["judge"] = "Miss",
+                ["index"] = 43,
+                ["score"] = -100
+            },
+            [59] = {
+                ["timeClicked"] = 31.519341728516988,
+                ["judge"] = "Miss",
+                ["index"] = 44,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [60] = {
+                ["timeClicked"] = 32.67547663567322,
+                ["judge"] = "Miss",
+                ["index"] = 44,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [61] = {
+                ["timeClicked"] = 32.9910016384508,
+                ["judge"] = "Miss",
+                ["index"] = 45,
+                ["score"] = -100
+            },
+            [62] = {
+                ["timeClicked"] = 33.36842194838184,
+                ["judge"] = "Miss",
+                ["index"] = 46,
+                ["score"] = -100
+            },
+            [63] = {
+                ["timeClicked"] = 33.79794486133116,
+                ["judge"] = "Miss",
+                ["index"] = 47,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [64] = {
+                ["timeClicked"] = 34.98548340690988,
+                ["judge"] = "Miss",
+                ["index"] = 47,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [65] = {
+                ["timeClicked"] = 35.2342776720013,
+                ["judge"] = "Miss",
+                ["index"] = 48,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [66] = {
+                ["timeClicked"] = 35.2342776720013,
+                ["judge"] = "Miss",
+                ["index"] = 49,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [67] = {
+                ["timeClicked"] = 36.99308288363474,
+                ["judge"] = "Miss",
+                ["index"] = 48,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [68] = {
+                ["timeClicked"] = 36.99308288363474,
+                ["judge"] = "Miss",
+                ["index"] = 49,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [69] = {
+                ["timeClicked"] = 37.549133925565656,
+                ["judge"] = "Miss",
+                ["index"] = 50,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [70] = {
+                ["timeClicked"] = 38.11875683335322,
+                ["judge"] = "Miss",
+                ["index"] = 51,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [71] = {
+                ["timeClicked"] = 38.67791829151767,
+                ["judge"] = "Miss",
+                ["index"] = 50,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [72] = {
+                ["timeClicked"] = 38.67791829151767,
+                ["judge"] = "Miss",
+                ["index"] = 51,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [73] = {
+                ["timeClicked"] = 39.23752975357431,
+                ["judge"] = "Miss",
+                ["index"] = 52,
+                ["score"] = -100
+            },
+            [74] = {
+                ["timeClicked"] = 39.23752975357431,
+                ["judge"] = "Miss",
+                ["index"] = 53,
+                ["score"] = -100
+            },
+            [75] = {
+                ["timeClicked"] = 39.79421048132437,
+                ["judge"] = "Miss",
+                ["index"] = 54,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [76] = {
+                ["timeClicked"] = 40.42699069050806,
+                ["judge"] = "Miss",
+                ["index"] = 55,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [77] = {
+                ["timeClicked"] = 40.98872194332736,
+                ["judge"] = "Miss",
+                ["index"] = 54,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [78] = {
+                ["timeClicked"] = 40.98872194332736,
+                ["judge"] = "Miss",
+                ["index"] = 55,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [79] = {
+                ["timeClicked"] = 41.54876517770546,
+                ["judge"] = "Miss",
+                ["index"] = 56,
+                ["score"] = -100
+            },
+            [80] = {
+                ["timeClicked"] = 41.54876517770546,
+                ["judge"] = "Miss",
+                ["index"] = 57,
+                ["score"] = -100
+            },
+            [81] = {
+                ["timeClicked"] = 42.1177755918886,
+                ["judge"] = "Miss",
+                ["index"] = 58,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [82] = {
+                ["timeClicked"] = 42.67910267306226,
+                ["judge"] = "Miss",
+                ["index"] = 59,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [83] = {
+                ["timeClicked"] = 43.246336008289035,
+                ["judge"] = "Miss",
+                ["index"] = 58,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [84] = {
+                ["timeClicked"] = 43.246336008289035,
+                ["judge"] = "Miss",
+                ["index"] = 59,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [85] = {
+                ["timeClicked"] = 43.809354244598325,
+                ["judge"] = "Miss",
+                ["index"] = 60,
+                ["score"] = -100
+            },
+            [86] = {
+                ["timeClicked"] = 43.809354244598325,
+                ["judge"] = "Miss",
+                ["index"] = 61,
+                ["score"] = -100
+            },
+            [87] = {
+                ["timeClicked"] = 44.37446674225586,
+                ["judge"] = "Miss",
+                ["index"] = 62,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [88] = {
+                ["timeClicked"] = 44.37446674225586,
+                ["judge"] = "Miss",
+                ["index"] = 63,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [89] = {
+                ["timeClicked"] = 46.117640192487414,
+                ["judge"] = "Miss",
+                ["index"] = 62,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [90] = {
+                ["timeClicked"] = 46.117640192487414,
+                ["judge"] = "Miss",
+                ["index"] = 63,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [91] = {
+                ["timeClicked"] = 46.7154266600098,
+                ["judge"] = "Miss",
+                ["index"] = 64,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [92] = {
+                ["timeClicked"] = 47.26773029831904,
+                ["judge"] = "Miss",
+                ["index"] = 65,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [93] = {
+                ["timeClicked"] = 47.832849054464276,
+                ["judge"] = "Miss",
+                ["index"] = 64,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [94] = {
+                ["timeClicked"] = 47.832849054464276,
+                ["judge"] = "Miss",
+                ["index"] = 65,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [95] = {
+                ["timeClicked"] = 48.39276051787394,
+                ["judge"] = "Miss",
+                ["index"] = 66,
+                ["score"] = -100
+            },
+            [96] = {
+                ["timeClicked"] = 48.95589177576559,
+                ["judge"] = "Miss",
+                ["index"] = 67,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [97] = {
+                ["timeClicked"] = 49.5219542746033,
+                ["judge"] = "Miss",
+                ["index"] = 68,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [98] = {
+                ["timeClicked"] = 50.07729438213366,
+                ["judge"] = "Miss",
+                ["index"] = 67,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [99] = {
+                ["timeClicked"] = 50.07729438213366,
+                ["judge"] = "Miss",
+                ["index"] = 68,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [100] = {
+                ["timeClicked"] = 50.69936260847109,
+                ["judge"] = "Miss",
+                ["index"] = 69,
+                ["score"] = -100
+            },
+            [101] = {
+                ["timeClicked"] = 51.26736676586526,
+                ["judge"] = "Miss",
+                ["index"] = 70,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [102] = {
+                ["timeClicked"] = 51.8452474948551,
+                ["judge"] = "Miss",
+                ["index"] = 71,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [103] = {
+                ["timeClicked"] = 52.410671966948684,
+                ["judge"] = "Miss",
+                ["index"] = 70,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [104] = {
+                ["timeClicked"] = 52.410671966948684,
+                ["judge"] = "Miss",
+                ["index"] = 71,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [105] = {
+                ["timeClicked"] = 52.97228186471122,
+                ["judge"] = "Miss",
+                ["index"] = 72,
+                ["score"] = -100
+            },
+            [106] = {
+                ["timeClicked"] = 53.534470393189366,
+                ["judge"] = "Miss",
+                ["index"] = 73,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [107] = {
+                ["timeClicked"] = 53.534470393189366,
+                ["judge"] = "Miss",
+                ["index"] = 74,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [108] = {
+                ["timeClicked"] = 55.280804774590905,
+                ["judge"] = "Miss",
+                ["index"] = 73,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [109] = {
+                ["timeClicked"] = 55.280804774590905,
+                ["judge"] = "Miss",
+                ["index"] = 74,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [110] = {
+                ["timeClicked"] = 55.84583863137024,
+                ["judge"] = "Miss",
+                ["index"] = 75,
+                ["score"] = -100
+            },
+            [111] = {
+                ["timeClicked"] = 56.40273706508535,
+                ["judge"] = "Miss",
+                ["index"] = 76,
+                ["score"] = -100
+            },
+            [112] = {
+                ["timeClicked"] = 56.40273706508535,
+                ["judge"] = "Miss",
+                ["index"] = 77,
+                ["score"] = -100
+            },
+            [113] = {
+                ["timeClicked"] = 56.97411101950067,
+                ["judge"] = "Miss",
+                ["index"] = 78,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [114] = {
+                ["timeClicked"] = 57.53713029516595,
+                ["judge"] = "Miss",
+                ["index"] = 79,
+                ["score"] = -100
+            },
+            [115] = {
+                ["timeClicked"] = 58.09125686330455,
+                ["judge"] = "Miss",
+                ["index"] = 78,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [116] = {
+                ["timeClicked"] = 58.656736030110295,
+                ["judge"] = "Miss",
+                ["index"] = 80,
+                ["score"] = -100
+            },
+            [117] = {
+                ["timeClicked"] = 58.656736030110295,
+                ["judge"] = "Miss",
+                ["index"] = 81,
+                ["score"] = -100
+            },
+            [118] = {
+                ["timeClicked"] = 59.2176396687116,
+                ["judge"] = "Miss",
+                ["index"] = 82,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [119] = {
+                ["timeClicked"] = 59.84095632550972,
+                ["judge"] = "Miss",
+                ["index"] = 83,
+                ["score"] = -100
+            },
+            [120] = {
+                ["timeClicked"] = 60.4108495552625,
+                ["judge"] = "Miss",
+                ["index"] = 82,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [121] = {
+                ["timeClicked"] = 60.97474539173501,
+                ["judge"] = "Miss",
+                ["index"] = 84,
+                ["score"] = -100
+            },
+            [122] = {
+                ["timeClicked"] = 60.97474539173501,
+                ["judge"] = "Miss",
+                ["index"] = 85,
+                ["score"] = -100
+            },
+            [123] = {
+                ["timeClicked"] = 61.53595164684313,
+                ["judge"] = "Miss",
+                ["index"] = 86,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [124] = {
+                ["timeClicked"] = 62.099920912512715,
+                ["judge"] = "Miss",
+                ["index"] = 86,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [125] = {
+                ["timeClicked"] = 62.099920912512715,
+                ["judge"] = "Miss",
+                ["index"] = 87,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [126] = {
+                ["timeClicked"] = 62.66161205513137,
+                ["judge"] = "Miss",
+                ["index"] = 87,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [127] = {
+                ["timeClicked"] = 62.66161205513137,
+                ["judge"] = "Miss",
+                ["index"] = 88,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [128] = {
+                ["timeClicked"] = 64.41475893823164,
+                ["judge"] = "Miss",
+                ["index"] = 88,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [129] = {
+                ["timeClicked"] = 65.53880892960089,
+                ["judge"] = "Miss",
+                ["index"] = 89,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [130] = {
+                ["timeClicked"] = 65.53880892960089,
+                ["judge"] = "Miss",
+                ["index"] = 90,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [131] = {
+                ["timeClicked"] = 65.97708653552192,
+                ["judge"] = "Miss",
+                ["index"] = 89,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [132] = {
+                ["timeClicked"] = 65.97708653552192,
+                ["judge"] = "Miss",
+                ["index"] = 90,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [133] = {
+                ["timeClicked"] = 67.79404592407602,
+                ["judge"] = "Miss",
+                ["index"] = 91,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [134] = {
+                ["timeClicked"] = 67.79404592407602,
+                ["judge"] = "Miss",
+                ["index"] = 92,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [135] = {
+                ["timeClicked"] = 68.22944748295205,
+                ["judge"] = "Miss",
+                ["index"] = 91,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [136] = {
+                ["timeClicked"] = 68.22944748295205,
+                ["judge"] = "Miss",
+                ["index"] = 92,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [137] = {
+                ["timeClicked"] = 70.10566258696574,
+                ["judge"] = "Miss",
+                ["index"] = 93,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [138] = {
+                ["timeClicked"] = 70.10566258696574,
+                ["judge"] = "Miss",
+                ["index"] = 94,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [139] = {
+                ["timeClicked"] = 70.53928654161948,
+                ["judge"] = "Miss",
+                ["index"] = 93,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [140] = {
+                ["timeClicked"] = 70.53928654161948,
+                ["judge"] = "Miss",
+                ["index"] = 94,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [141] = {
+                ["timeClicked"] = 72.37092715395349,
+                ["judge"] = "Miss",
+                ["index"] = 95,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [142] = {
+                ["timeClicked"] = 72.37092715395349,
+                ["judge"] = "Miss",
+                ["index"] = 96,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [143] = {
+                ["timeClicked"] = 72.7920084026243,
+                ["judge"] = "Miss",
+                ["index"] = 95,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [144] = {
+                ["timeClicked"] = 72.7920084026243,
+                ["judge"] = "Miss",
+                ["index"] = 96,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [145] = {
+                ["timeClicked"] = 74.68284070385354,
+                ["judge"] = "Miss",
+                ["index"] = 97,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [146] = {
+                ["timeClicked"] = 74.68284070385354,
+                ["judge"] = "Miss",
+                ["index"] = 98,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [147] = {
+                ["timeClicked"] = 75.12499746201294,
+                ["judge"] = "Miss",
+                ["index"] = 97,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [148] = {
+                ["timeClicked"] = 75.12499746201294,
+                ["judge"] = "Miss",
+                ["index"] = 98,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [149] = {
+                ["timeClicked"] = 77.02658704934376,
+                ["judge"] = "Miss",
+                ["index"] = 99,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [150] = {
+                ["timeClicked"] = 77.02658704934376,
+                ["judge"] = "Miss",
+                ["index"] = 100,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [151] = {
+                ["timeClicked"] = 77.43725319472807,
+                ["judge"] = "Miss",
+                ["index"] = 99,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [152] = {
+                ["timeClicked"] = 77.43725319472807,
+                ["judge"] = "Miss",
+                ["index"] = 100,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [153] = {
+                ["timeClicked"] = 79.26203600955861,
+                ["judge"] = "Miss",
+                ["index"] = 101,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [154] = {
+                ["timeClicked"] = 79.26203600955861,
+                ["judge"] = "Miss",
+                ["index"] = 102,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [155] = {
+                ["timeClicked"] = 79.69999902588981,
+                ["judge"] = "Miss",
+                ["index"] = 101,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [156] = {
+                ["timeClicked"] = 79.69999902588981,
+                ["judge"] = "Miss",
+                ["index"] = 102,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [157] = {
+                ["timeClicked"] = 81.5202099633004,
+                ["judge"] = "Miss",
+                ["index"] = 103,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [158] = {
+                ["timeClicked"] = 81.5202099633004,
+                ["judge"] = "Miss",
+                ["index"] = 104,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [159] = {
+                ["timeClicked"] = 81.5202099633004,
+                ["judge"] = "Miss",
+                ["index"] = 105,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [160] = {
+                ["timeClicked"] = 81.5202099633004,
+                ["judge"] = "Miss",
+                ["index"] = 106,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [161] = {
+                ["timeClicked"] = 81.98643183974283,
+                ["judge"] = "Miss",
+                ["index"] = 103,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [162] = {
+                ["timeClicked"] = 81.98643183974283,
+                ["judge"] = "Miss",
+                ["index"] = 104,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [163] = {
+                ["timeClicked"] = 81.98643183974283,
+                ["judge"] = "Miss",
+                ["index"] = 105,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [164] = {
+                ["timeClicked"] = 81.98643183974283,
+                ["judge"] = "Miss",
+                ["index"] = 106,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [165] = {
+                ["timeClicked"] = 83.80892455098885,
+                ["judge"] = "Miss",
+                ["index"] = 107,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [166] = {
+                ["timeClicked"] = 84.24892194462674,
+                ["judge"] = "Miss",
+                ["index"] = 107,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [167] = {
+                ["timeClicked"] = 84.24892194462674,
+                ["judge"] = "Miss",
+                ["index"] = 108,
+                ["score"] = -100
+            },
+            [168] = {
+                ["timeClicked"] = 86.12209122149008,
+                ["judge"] = "Miss",
+                ["index"] = 148,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [169] = {
+                ["timeClicked"] = 86.5600198608424,
+                ["judge"] = "Miss",
+                ["index"] = 148,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [170] = {
+                ["timeClicked"] = 86.5600198608424,
+                ["judge"] = "Miss",
+                ["index"] = 149,
+                ["score"] = -100
+            },
+            [171] = {
+                ["timeClicked"] = 88.37425267589944,
+                ["judge"] = "Miss",
+                ["index"] = 109,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [172] = {
+                ["timeClicked"] = 88.81759538767594,
+                ["judge"] = "Miss",
+                ["index"] = 109,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [173] = {
+                ["timeClicked"] = 88.81759538767594,
+                ["judge"] = "Miss",
+                ["index"] = 110,
+                ["score"] = -100
+            },
+            [174] = {
+                ["timeClicked"] = 90.13376413924354,
+                ["judge"] = "Miss",
+                ["index"] = 111,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [175] = {
+                ["timeClicked"] = 91.79233028633254,
+                ["judge"] = "Miss",
+                ["index"] = 111,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [176] = {
+                ["timeClicked"] = 92.4261511218335,
+                ["judge"] = "Miss",
+                ["index"] = 150,
+                ["score"] = -100
+            },
+            [177] = {
+                ["timeClicked"] = 92.98640216780561,
+                ["judge"] = "Miss",
+                ["index"] = 151,
+                ["score"] = -100
+            },
+            [178] = {
+                ["timeClicked"] = 93.55121362475413,
+                ["judge"] = "Miss",
+                ["index"] = 152,
+                ["score"] = -100
+            },
+            [179] = {
+                ["timeClicked"] = 93.7368662234928,
+                ["judge"] = "Perfect",
+                ["index"] = 153,
+                ["score"] = 100
+            },
+            [180] = {
+                ["timeClicked"] = 94.67916308609503,
+                ["judge"] = "Miss",
+                ["index"] = 154,
+                ["score"] = -100
+            },
+            [181] = {
+                ["timeClicked"] = 95.24994798643249,
+                ["judge"] = "Miss",
+                ["index"] = 155,
+                ["score"] = -100
+            },
+            [182] = {
+                ["timeClicked"] = 95.80731205163258,
+                ["judge"] = "Miss",
+                ["index"] = 156,
+                ["score"] = -100
+            },
+            [183] = {
+                ["timeClicked"] = 96.37345163417714,
+                ["judge"] = "Miss",
+                ["index"] = 157,
+                ["score"] = -100
+            },
+            [184] = {
+                ["timeClicked"] = 96.99631777299302,
+                ["judge"] = "Miss",
+                ["index"] = 158,
+                ["score"] = -100
+            },
+            [185] = {
+                ["timeClicked"] = 97.56047715140241,
+                ["judge"] = "Miss",
+                ["index"] = 159,
+                ["score"] = -100
+            },
+            [186] = {
+                ["timeClicked"] = 98.11600319562214,
+                ["judge"] = "Miss",
+                ["index"] = 160,
+                ["score"] = -100
+            },
+            [187] = {
+                ["timeClicked"] = 98.6893485028829,
+                ["judge"] = "Miss",
+                ["index"] = 161,
+                ["score"] = -100
+            },
+            [188] = {
+                ["timeClicked"] = 99.23807193977493,
+                ["judge"] = "Miss",
+                ["index"] = 162,
+                ["score"] = -100
+            },
+            [189] = {
+                ["timeClicked"] = 99.79590683696526,
+                ["judge"] = "Miss",
+                ["index"] = 163,
+                ["score"] = -100
+            },
+            [190] = {
+                ["timeClicked"] = 100.36798652527588,
+                ["judge"] = "Miss",
+                ["index"] = 164,
+                ["score"] = -100
+            },
+            [191] = {
+                ["timeClicked"] = 100.93538444010275,
+                ["judge"] = "Miss",
+                ["index"] = 165,
+                ["score"] = -100
+            },
+            [192] = {
+                ["timeClicked"] = 101.55789641184467,
+                ["judge"] = "Miss",
+                ["index"] = 166,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [193] = {
+                ["timeClicked"] = 102.12681099666017,
+                ["judge"] = "Miss",
+                ["index"] = 166,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [194] = {
+                ["timeClicked"] = 102.7026656818177,
+                ["judge"] = "Miss",
+                ["index"] = 167,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [195] = {
+                ["timeClicked"] = 103.2746354815151,
+                ["judge"] = "Miss",
+                ["index"] = 167,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [196] = {
+                ["timeClicked"] = 103.83512610835689,
+                ["judge"] = "Miss",
+                ["index"] = 168,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [197] = {
+                ["timeClicked"] = 104.39774589879173,
+                ["judge"] = "Miss",
+                ["index"] = 168,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [198] = {
+                ["timeClicked"] = 104.96125370902675,
+                ["judge"] = "Miss",
+                ["index"] = 169,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [199] = {
+                ["timeClicked"] = 105.51996256304639,
+                ["judge"] = "Miss",
+                ["index"] = 169,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [200] = {
+                ["timeClicked"] = 106.08906516698855,
+                ["judge"] = "Miss",
+                ["index"] = 170,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [201] = {
+                ["timeClicked"] = 106.65682298583644,
+                ["judge"] = "Miss",
+                ["index"] = 170,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [202] = {
+                ["timeClicked"] = 107.2391750727381,
+                ["judge"] = "Miss",
+                ["index"] = 171,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [203] = {
+                ["timeClicked"] = 107.80211778251189,
+                ["judge"] = "Miss",
+                ["index"] = 171,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [204] = {
+                ["timeClicked"] = 108.37253028420466,
+                ["judge"] = "Miss",
+                ["index"] = 112,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [205] = {
+                ["timeClicked"] = 110.39885528651732,
+                ["judge"] = "Miss",
+                ["index"] = 112,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [206] = {
+                ["timeClicked"] = 110.680841746607,
+                ["judge"] = "Miss",
+                ["index"] = 172,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [207] = {
+                ["timeClicked"] = 111.25897664842861,
+                ["judge"] = "Miss",
+                ["index"] = 172,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [208] = {
+                ["timeClicked"] = 111.82625269410866,
+                ["judge"] = "Miss",
+                ["index"] = 173,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [209] = {
+                ["timeClicked"] = 112.39985684571522,
+                ["judge"] = "Miss",
+                ["index"] = 173,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [210] = {
+                ["timeClicked"] = 112.99994644043701,
+                ["judge"] = "Miss",
+                ["index"] = 174,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [211] = {
+                ["timeClicked"] = 113.54687196654933,
+                ["judge"] = "Miss",
+                ["index"] = 174,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [212] = {
+                ["timeClicked"] = 114.10363915083664,
+                ["judge"] = "Miss",
+                ["index"] = 175,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [213] = {
+                ["timeClicked"] = 114.64595686910408,
+                ["judge"] = "Miss",
+                ["index"] = 175,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [214] = {
+                ["timeClicked"] = 115.2387256164636,
+                ["judge"] = "Miss",
+                ["index"] = 176,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [215] = {
+                ["timeClicked"] = 115.81147665424007,
+                ["judge"] = "Miss",
+                ["index"] = 176,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [216] = {
+                ["timeClicked"] = 116.36662404132741,
+                ["judge"] = "Miss",
+                ["index"] = 177,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [217] = {
+                ["timeClicked"] = 117.0247313295092,
+                ["judge"] = "Miss",
+                ["index"] = 177,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [218] = {
+                ["timeClicked"] = 117.61353341383594,
+                ["judge"] = "Miss",
+                ["index"] = 113,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [219] = {
+                ["timeClicked"] = 119.54051203919309,
+                ["judge"] = "Miss",
+                ["index"] = 113,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [220] = {
+                ["timeClicked"] = 119.79798390982407,
+                ["judge"] = "Miss",
+                ["index"] = 178,
+                ["score"] = -100
+            },
+            [221] = {
+                ["timeClicked"] = 120.42075006184834,
+                ["judge"] = "Miss",
+                ["index"] = 179,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [222] = {
+                ["timeClicked"] = 120.98262558771032,
+                ["judge"] = "Miss",
+                ["index"] = 180,
+                ["score"] = -100
+            },
+            [223] = {
+                ["timeClicked"] = 121.55304381889957,
+                ["judge"] = "Miss",
+                ["index"] = 179,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [224] = {
+                ["timeClicked"] = 122.07841465143221,
+                ["judge"] = "Miss",
+                ["index"] = 181,
+                ["score"] = -100
+            },
+            [225] = {
+                ["timeClicked"] = 122.65204276783126,
+                ["judge"] = "Miss",
+                ["index"] = 182,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [226] = {
+                ["timeClicked"] = 123.22391567645329,
+                ["judge"] = "Miss",
+                ["index"] = 183,
+                ["score"] = -100
+            },
+            [227] = {
+                ["timeClicked"] = 123.83881306914347,
+                ["judge"] = "Miss",
+                ["index"] = 182,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [228] = {
+                ["timeClicked"] = 124.40931254518884,
+                ["judge"] = "Miss",
+                ["index"] = 184,
+                ["score"] = -100
+            },
+            [229] = {
+                ["timeClicked"] = 124.97261828077691,
+                ["judge"] = "Miss",
+                ["index"] = 185,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [230] = {
+                ["timeClicked"] = 125.53050682214754,
+                ["judge"] = "Miss",
+                ["index"] = 186,
+                ["score"] = -100
+            },
+            [231] = {
+                ["timeClicked"] = 126.1182776567127,
+                ["judge"] = "Miss",
+                ["index"] = 185,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [232] = {
+                ["timeClicked"] = 126.68690786776799,
+                ["judge"] = "Miss",
+                ["index"] = 114,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [233] = {
+                ["timeClicked"] = 128.68604275850313,
+                ["judge"] = "Miss",
+                ["index"] = 114,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [234] = {
+                ["timeClicked"] = 128.939487545618,
+                ["judge"] = "Miss",
+                ["index"] = 115,
+                ["score"] = -100
+            },
+            [235] = {
+                ["timeClicked"] = 129.38036983353751,
+                ["judge"] = "Miss",
+                ["index"] = 116,
+                ["score"] = -100
+            },
+            [236] = {
+                ["timeClicked"] = 129.81935316590327,
+                ["judge"] = "Miss",
+                ["index"] = 117,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [237] = {
+                ["timeClicked"] = 130.95379482848304,
+                ["judge"] = "Miss",
+                ["index"] = 117,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [238] = {
+                ["timeClicked"] = 131.26120369029897,
+                ["judge"] = "Miss",
+                ["index"] = 118,
+                ["score"] = -100
+            },
+            [239] = {
+                ["timeClicked"] = 131.7102510918464,
+                ["judge"] = "Miss",
+                ["index"] = 119,
+                ["score"] = -100
+            },
+            [240] = {
+                ["timeClicked"] = 132.0821922336306,
+                ["judge"] = "Miss",
+                ["index"] = 120,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [241] = {
+                ["timeClicked"] = 133.27686775741833,
+                ["judge"] = "Miss",
+                ["index"] = 120,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [242] = {
+                ["timeClicked"] = 133.53054483500975,
+                ["judge"] = "Miss",
+                ["index"] = 121,
+                ["score"] = -100
+            },
+            [243] = {
+                ["timeClicked"] = 133.94458702472704,
+                ["judge"] = "Miss",
+                ["index"] = 122,
+                ["score"] = -100
+            },
+            [244] = {
+                ["timeClicked"] = 134.41363546518343,
+                ["judge"] = "Miss",
+                ["index"] = 123,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [245] = {
+                ["timeClicked"] = 135.55742035699743,
+                ["judge"] = "Miss",
+                ["index"] = 123,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [246] = {
+                ["timeClicked"] = 135.8113536898579,
+                ["judge"] = "Miss",
+                ["index"] = 124,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [247] = {
+                ["timeClicked"] = 136.25453129304307,
+                ["judge"] = "Miss",
+                ["index"] = 125,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [248] = {
+                ["timeClicked"] = 137.821814100125,
+                ["judge"] = "Miss",
+                ["index"] = 124,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [249] = {
+                ["timeClicked"] = 137.821814100125,
+                ["judge"] = "Miss",
+                ["index"] = 125,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [250] = {
+                ["timeClicked"] = 138.0746432681169,
+                ["judge"] = "Miss",
+                ["index"] = 126,
+                ["score"] = -100
+            },
+            [251] = {
+                ["timeClicked"] = 138.51530264584082,
+                ["judge"] = "Miss",
+                ["index"] = 127,
+                ["score"] = -100
+            },
+            [252] = {
+                ["timeClicked"] = 138.95481462297695,
+                ["judge"] = "Miss",
+                ["index"] = 128,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [253] = {
+                ["timeClicked"] = 139.83593753991383,
+                ["judge"] = "Miss",
+                ["index"] = 128,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [254] = {
+                ["timeClicked"] = 140.3998958681311,
+                ["judge"] = "Miss",
+                ["index"] = 129,
+                ["score"] = -100
+            },
+            [255] = {
+                ["timeClicked"] = 140.8389792059149,
+                ["judge"] = "Miss",
+                ["index"] = 130,
+                ["score"] = -100
+            },
+            [256] = {
+                ["timeClicked"] = 141.28005524618285,
+                ["judge"] = "Miss",
+                ["index"] = 131,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [257] = {
+                ["timeClicked"] = 142.42216982586044,
+                ["judge"] = "Miss",
+                ["index"] = 131,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [258] = {
+                ["timeClicked"] = 142.67818857995528,
+                ["judge"] = "Miss",
+                ["index"] = 132,
+                ["score"] = -100
+            },
+            [259] = {
+                ["timeClicked"] = 143.11497660247343,
+                ["judge"] = "Miss",
+                ["index"] = 133,
+                ["score"] = -100
+            },
+            [260] = {
+                ["timeClicked"] = 143.55395108354944,
+                ["judge"] = "Miss",
+                ["index"] = 134,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [261] = {
+                ["timeClicked"] = 144.6825943094279,
+                ["judge"] = "Miss",
+                ["index"] = 134,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [262] = {
+                ["timeClicked"] = 144.99585108725088,
+                ["judge"] = "Miss",
+                ["index"] = 135,
+                ["score"] = -100
+            },
+            [263] = {
+                ["timeClicked"] = 145.3790901516165,
+                ["judge"] = "Miss",
+                ["index"] = 136,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [264] = {
+                ["timeClicked"] = 146.81494328273195,
+                ["judge"] = "Miss",
+                ["index"] = 136,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [265] = {
+                ["timeClicked"] = 147.25403234628695,
+                ["judge"] = "Miss",
+                ["index"] = 137,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [266] = {
+                ["timeClicked"] = 147.69145161924618,
+                ["judge"] = "Miss",
+                ["index"] = 137,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [267] = {
+                ["timeClicked"] = 147.69145161924618,
+                ["judge"] = "Miss",
+                ["index"] = 138,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [268] = {
+                ["timeClicked"] = 148.1296563063349,
+                ["judge"] = "Miss",
+                ["index"] = 138,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [269] = {
+                ["timeClicked"] = 149.50334430752056,
+                ["judge"] = "Miss",
+                ["index"] = 139,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [270] = {
+                ["timeClicked"] = 149.95855576811093,
+                ["judge"] = "Miss",
+                ["index"] = 139,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [271] = {
+                ["timeClicked"] = 149.95855576811093,
+                ["judge"] = "Miss",
+                ["index"] = 140,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [272] = {
+                ["timeClicked"] = 150.39407712487238,
+                ["judge"] = "Miss",
+                ["index"] = 140,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [273] = {
+                ["timeClicked"] = 151.87401878727334,
+                ["judge"] = "Miss",
+                ["index"] = 141,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [274] = {
+                ["timeClicked"] = 152.23650524658817,
+                ["judge"] = "Miss",
+                ["index"] = 141,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [275] = {
+                ["timeClicked"] = 152.23650524658817,
+                ["judge"] = "Miss",
+                ["index"] = 142,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [276] = {
+                ["timeClicked"] = 152.7785542149629,
+                ["judge"] = "Miss",
+                ["index"] = 142,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [277] = {
+                ["timeClicked"] = 154.09270266709584,
+                ["judge"] = "Miss",
+                ["index"] = 143,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [278] = {
+                ["timeClicked"] = 154.09270266709584,
+                ["judge"] = "Miss",
+                ["index"] = 144,
+                ["subIndex"] = 1,
+                ["score"] = -100
+            },
+            [279] = {
+                ["timeClicked"] = 155.80142142517226,
+                ["judge"] = "Miss",
+                ["index"] = 143,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [280] = {
+                ["timeClicked"] = 155.80142142517226,
+                ["judge"] = "Miss",
+                ["index"] = 144,
+                ["subIndex"] = 2,
+                ["score"] = -100
+            },
+            [281] = {
+                ["timeClicked"] = 156.06251413641232,
+                ["judge"] = "Miss",
+                ["index"] = 145,
+                ["score"] = -100
+            },
+            [282] = {
+                ["timeClicked"] = 156.13510632781046,
+                ["judge"] = "Miss",
+                ["index"] = 146,
+                ["score"] = -100
+            },
+            [283] = {
+                ["timeClicked"] = 156.25181414080518,
+                ["judge"] = "Miss",
+                ["index"] = 147,
+                ["score"] = -100
+            }
+        },
+        ["Score"] = 30000,
+        ["Combo"] = 283,
+        ["ComboHighest"] = 283,
+        ["Grade"] = {
+            [1] = "A",
+            [2] = 0,
+            [3] = Color3.new(0.2549019753932953, 0.2549019753932953, 0.2549019753932953)
+        },
+        ["Percentage"] = 100
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("_REs"):WaitForChild("Finished"):FireServer(unpack(args))
