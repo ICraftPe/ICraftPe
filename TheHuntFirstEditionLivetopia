@@ -1,0 +1,1 @@
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForClild("EquipToolRF"):InvokeServer("Easter2024_Egg", "Equip")
