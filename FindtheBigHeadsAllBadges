@@ -1,0 +1,10 @@
+local http = game:GetService("HttpService")
+local universeId = 1158128110
+local data = http:GetAsync(`https://badges.roproxy.com/v1/universes/{universeId}/badges?limit=100&sortOrder=Asc`)
+
+if data then
+ data = http:JSONDecode(data)
+ for _, Badge in data.data do
+       game.ReplicatedStorage.AwardBadge2:FireServer(Badge.id)
+    end
+end
