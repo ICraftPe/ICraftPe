@@ -1,0 +1,24 @@
+if game.PlaceId == 11452349236 then
+game:GetService("TeleportService"):Teleport(13812333329)
+else
+if game.PlaceId == 13812333329 then
+local http = game:GetService("HttpService")
+ local PlaceId = game.PlaceId
+ local data = http:GetAsync("https://apis.roproxy.com/universes/v1/places/"..PlaceId.."/universe")
+ if data then
+  data = http:JSONDecode(data)
+  local universeId = data.universeId
+  data = http:GetAsync(`https://badges.roproxy.com/v1/universes/{universeId}/badges?limit=100&sortOrder=Asc`)
+
+  if data then
+   data = http:JSONDecode(data)
+   for _, Badge in data.data do
+    for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+if v.Name == "AwardBadge" then
+v:FireServer(Badge.id)
+end
+end
+   end
+  end
+ end
+end
