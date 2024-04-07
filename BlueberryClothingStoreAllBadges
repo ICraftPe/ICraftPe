@@ -18,6 +18,7 @@ if v.Name == "AwardBadge" then
 v:FireServer(Badge.id)
 end
 end
+end
    end
   end
  end
