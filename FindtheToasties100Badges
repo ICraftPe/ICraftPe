@@ -1,0 +1,15 @@
+local Count = 0
+		local http = game:GetService("HttpService")
+		local data = http:GetAsync("https://apis.roproxy.com/universes/v1/places/11421782440/universe")
+		if data then
+			local data = http:JSONDecode(data)
+			data = http:GetAsync("https://badges.roproxy.com/v1/universes/4063143000/badges?limit=100&sortOrder=Asc")
+			data = http:JSONDecode(data)
+			for _, Badge in data.data do
+				for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+					if v.Name == "GrantBadge" then
+						v:FireServer(Badge.id)
+					end
+				end
+			end
+		end
