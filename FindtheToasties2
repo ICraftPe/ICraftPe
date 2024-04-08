@@ -3,7 +3,7 @@ local Count = 0
 		local data = http:GetAsync("https://apis.roproxy.com/universes/v1/places/11421782440/universe")
 		if data then
 			local data = http:JSONDecode(data)
-			data = http:GetAsync("https://badges.roblox.com/v1/universes/4063143000/badges?limit=100&cursor=eyJrZXkiOiJpZF8yendBQUFZYmhoVkFaem4teWdlTSIsInNvcnRPcmRlciI6IkFzYyIsInBhZ2luZ0RpcmVjdGlvbiI6IkZvcndhcmQiLCJwYWdlTnVtYmVyIjoyLCJkaXNjcmltaW5hdG9yIjoidW5pdmVyc2VJZDo0MDYzMTQzMDAwIiwiY291bnQiOjEwMH0KODAwMDE0MDczMWMwOTk2MmJkNTY1MWY5NjQ5ODNhOTFjMWU5NzUxZmNmNzUzNGFkMjQwZDlkM2Y3MTU2ZTg3Nw%3D%3D&sortOrder=Asc")
+			data = http:GetAsync("https://badges.roproxy.com/v1/universes/4063143000/badges?limit=100&cursor=eyJrZXkiOiJpZF8yendBQUFZYmhoVkFaem4teWdlTSIsInNvcnRPcmRlciI6IkFzYyIsInBhZ2luZ0RpcmVjdGlvbiI6IkZvcndhcmQiLCJwYWdlTnVtYmVyIjoyLCJkaXNjcmltaW5hdG9yIjoidW5pdmVyc2VJZDo0MDYzMTQzMDAwIiwiY291bnQiOjEwMH0KODAwMDE0MDczMWMwOTk2MmJkNTY1MWY5NjQ5ODNhOTFjMWU5NzUxZmNmNzUzNGFkMjQwZDlkM2Y3MTU2ZTg3Nw%3D%3D&sortOrder=Asc")
 			data = http:JSONDecode(data)
 			for _, Badge in data.data do
 				for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
