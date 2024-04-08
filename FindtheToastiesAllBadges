@@ -1,0 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/FindtheToasties1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/FindtheToasties2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/FindtheToasties3"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/FindtheToasties4"))()
