@@ -17,21 +17,21 @@ local Count = 0
 						v:FireServer(Badge1.id)
 					end
 				end
-				
+				wait(30)
 				for _, Badge2 in data2.data do
 					for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
 						if v.Name == "GrantBadge" then
 							v:FireServer(Badge2.id)
 						end
 					end
-					
+					wait(30)
 					for _, Badge3 in data3.data do
 						for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
 							if v.Name == "GrantBadge" then
 								v:FireServer(Badge3.id)
 							end
 						end
-						
+						wait(30)
 						for _, Badge4 in data4.data do
 							for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
 								if v.Name == "GrantBadge" then
