@@ -1,5 +1,4 @@
-game.Players.PlayerAdded:Connect(function(Player)
-	while wait() do
+while wait() do
 		for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 			if v.Name == Player.Name then
 				local HumanoidRootPart = v:WaitForChild("HumanoidRootPart")
@@ -18,4 +17,3 @@ end
 			end
 		end
 	end
-end)
