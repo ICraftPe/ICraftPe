@@ -1,9 +1,0 @@
-while wait() do
-for i,v in pairs(game.Players:GetDescendants()) do
-			if v.Name == "PlayerGui" then
-				if v.Parent:GetRoleInGroup(32909409) == "Moderator" then
-					game.Players.LocalPlayer:Kick("Mods joined.")
-				end
-			end
-		end
-end
