@@ -7,7 +7,7 @@ while wait() do
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
 for i,v in pairs(game.Players:GetDescendants()) do
 			if v.Name == "PlayerGui" then
-				if v.Parent:GetRoleInGroup(32909409) == "Member" or v.Parent:GetRoleInGroup(32909409) == "UGC Admin" or v.Parent:GetRoleInGroup(32909409) == "Staff" or v.Parent:GetRoleInGroup(32909409) == "Dev Team" or v.Parent:GetRoleInGroup(32909409) == "UGC Team" or v.Parent:GetRoleInGroup(32909409) == "Moderator" or v.Parent:GetRoleInGroup(32909409) == "Partner" then
+				if v.Parent:GetRoleInGroup(32909409) == "Owner" or v.Parent:GetRoleInGroup(32909409) == "UGC Admin" or v.Parent:GetRoleInGroup(32909409) == "Staff" or v.Parent:GetRoleInGroup(32909409) == "Dev Team" or v.Parent:GetRoleInGroup(32909409) == "UGC Team" or v.Parent:GetRoleInGroup(32909409) == "Moderator" or v.Parent:GetRoleInGroup(32909409) == "Partner" then
 					game.Players.LocalPlayer:Kick("Mods joined.")
 				end
 			end
