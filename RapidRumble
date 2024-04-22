@@ -1,0 +1,17 @@
+while wait() do
+		for i,v in pairs(game:GetService("Players"):GetDescendants()) do
+			if v.Name == "PlayerGui" then
+				if v.Parent:GetRankInGroup(32909409) >= 2 then
+					Player:Kick()
+				end
+			end
+		end
+for i,v in pairs(game:GetService("Players"):GetDescendants()) do
+if v.Name == "StatusText" then
+if v.Text == "Intermission"
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4.81910849, -2.9000000, -119.231766, -0.994196594, 3.2689595e-08, -0.107578486, 2.64331845e-08, 1, 5.95826499e-08, 0.107578486, 5.63932261e-08, -0.994196594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+end
+end
+end
+	end

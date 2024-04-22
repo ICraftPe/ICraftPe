@@ -1,9 +1,0 @@
-while wait() do
-		for i,v in pairs(game:GetService("Players"):GetDescendants()) do
-			if v.Name == "PlayerGui" then
-				if v.Parent:GetRankInGroup(32909409) >= 2 then
-					Player:Kick()
-				end
-			end
-		end
-	end
