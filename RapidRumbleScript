@@ -15,7 +15,7 @@ while wait() do
 for i,v in pairs(game:GetService("Players"):GetDescendants()) do
 			if v.Name == "PlayerGui" then
 				if v.Parent:GetRoleInGroup(32909409) == "Member" or v.Parent:GetRoleInGroup(32909409) == "UGC Admin" or v.Parent:GetRoleInGroup(32909409) == "Staff" or v.Parent:GetRoleInGroup(32909409) == "Dev Team" or v.Parent:GetRoleInGroup(32909409) == "UGC Team" or v.Parent:GetRoleInGroup(32909409) == "Moderator" or v.Parent:GetRoleInGroup(32909409) == "Partner" then
-					Player:Kick("Mods joined.")
+					game.Players.LocalPlayer:Kick("Mods joined.")
 				end
 			end
 		end
