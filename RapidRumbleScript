@@ -5,9 +5,9 @@ while wait() do
 				if HumanoidRootPart then
 					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(31.5004768, -15.88002312, -125.242867, -0.969765365, 4.57413947e-08, -0.244039297, 3.08158796e-08, 1, 6.49781597e-08, 0.244039297, 5.54932846e-08, -0.969765365)
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
-for i,v in pairs(game.Players:GetDescendants()) do
-			if v.Name == "PlayerGui" then
-				if v.Parent:GetRoleInGroup(32909409) == "Moderator" then
+for i,Player in pairs(game.Players:GetDescendants()) do
+			if Player.Name == "PlayerGui" then
+				if Player.Parent:GetRoleInGroup(32909409) == "Moderator" then
 					game.Players.LocalPlayer:Kick("Mods joined.")
 				end
 			end
