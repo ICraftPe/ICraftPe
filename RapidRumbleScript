@@ -2,7 +2,6 @@ while wait() do
 for i,v in pairs(game.Players:GetDescendants()) do
 if v.Name == "StatusText" then
 if v.Text == "Round Summary" then
-game.Players.LocalPlayer:Kick()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4.81910849, -2.9000000, -119.231766, -0.994196594, 3.2689595e-08, -0.107578486, 2.64331845e-08, 1, 5.95826499e-08, 0.107578486, 5.63932261e-08, -0.994196594)
 else
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(31.5004768, -15.88002312, -125.242867, -0.969765365, 4.57413947e-08, -0.244039297, 3.08158796e-08, 1, 6.49781597e-08, 0.244039297, 5.54932846e-08, -0.969765365)
