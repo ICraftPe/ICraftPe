@@ -1,7 +1,7 @@
 skidmyway1 = Instance.new("BindableFunction")
 function skidmyway1.OnInvoke(response)
 if response == "Execute" then
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/Guardian%20v2.lua"),true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/TestLol1"),true))()
 end
 end
 
