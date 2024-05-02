@@ -1,37 +1,9 @@
-game:GetService("Workspace").NPCs.QuestNPCs.AmazonExplorerNPC.InteractionZone.Size = Vector3.new(999999999999, 999999999999, 999999999999)
-game:GetService("Players").LocalPlayer.PlayerGui.QuestsScreenGui.QuestRewardPopUpFrame.ClicksBlockerButton.Visible = true
-
-if game:GetService("Workspace").InteractiveWorldElements:FindFirstChild("DoubleSeats")~=nil then
-game:GetService("Workspace").InteractiveWorldElements.DoubleSeats:Destroy() end
-
-if game:GetService("Workspace").InteractiveWorldElements:FindFirstChild("SingleSeats")~=nil then
-game:GetService("Workspace").InteractiveWorldElements.SingleSeats:Destroy() end
-
-local enabled = true
-
-game:GetService("UserInputService").InputBegan:Connect(function(key, gameProcessedEvent)
-    if key.KeyCode == Enum.KeyCode.R and not gameProcessedEvent then
-        enabled = not enabled
-    end
-end)
- 
-while true do
-    wait(0.5)
-    for i, Folder in pairs(Workspace:GetChildren()) do
-        if Folder.Name == "SpawnedObjectsFolder" then
-            if Folder:GetDescendants() ~= nil then
-                for i, Treasure in pairs(Folder:GetDescendants()) do
-                    if Treasure and Treasure.Name == "Treasure" and Treasure:FindFirstChild("HarvestableId")~=nil and enabled then
-                        local v1 = Treasure.HarvestableId.Value
-                        game.Players.LocalPlayer.Character.PrimaryPart.CFrame = Treasure.CFrame
-                        wait(0.1)
-                        for i = 1,4 do
-                            local rem = game:GetService("ReplicatedStorage").RemoteEvents.RequestHarvestRemoteEvent
-                            rem:FireServer(v1); wait(0.1)
-                        end
-                    end
-                end
-            end
-        end
-    end
+for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+if v.Name == "Acantha" then
+for i,Zone in pairs(v:GetDescendants()) do
+if Zone.Name == "InteractionZone" then
+Zone.Size = Vector3.new(9999999999, 9999999999, 9999999999)
+end
+end
+end
 end
