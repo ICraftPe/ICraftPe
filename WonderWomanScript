@@ -3,9 +3,11 @@ if v.Name == "Acantha" then
 for i,Zone in pairs(v:GetDescendants()) do
 if Zone.Name == "InteractionZone" then
 Zone.Size = Vector3.new(9999999999, 9999999999, 9999999999)
+while wait() do
 for i,Pearl in pairs(game:GetService("Workspace"):GetDescendants()) do
 if Pearl.Name == "PearlOfAtlantis" then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Pearl.CFrame
+end
 end
 end
 end
