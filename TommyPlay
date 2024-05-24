@@ -1,0 +1,5 @@
+if game.PlaceId == 9717701801 then
+game:GetService("TeleportService"):Teleport(9774692672)
+else
+game:GetService("TeleportService"):Teleport(9717701801)
+end
