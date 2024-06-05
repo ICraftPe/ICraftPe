@@ -15,5 +15,13 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RemoteEvents"):WaitForChild("Vote"):FireServer(unpack(args))
+
+for _, v in pairs(game:GetService("Workspace").Scenes.Lobby.Map.ScavengerHunt:GetDescendants()) do
+   if v:IsA("ProximityPrompt") then
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame
+       wait(1)
+       fireproximityprompt(v, 10)
+   end
+end
 end
 end
