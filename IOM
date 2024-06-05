@@ -1,0 +1,6 @@
+game.ReplicatedStorage.Events.RedeemCode:FireServer("StrikeAPose")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("DIY")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("WorldAlive")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("SettingTheStage")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("VictoryLap")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("GetMoving")
