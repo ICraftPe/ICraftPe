@@ -1,3 +1,19 @@
 if game.PlaceId == 6225076142 then
 game:GetService("TeleportService"):Teleport(6403132498)
+else
+if game.PlaceId == 6403132498 then
+local args = {
+    [1] = {
+        ["Best Game Trailer"] = "The Wild West",
+        ["Best Video Content Creator"] = "Kreekcraft",
+        ["Roblox Video of the Year"] = "LankyBox",
+        ["Game of the Year"] = "Piggy",
+        ["Best New Game "] = "Piggy",
+        ["Best Sleeper Hit"] = "The Wild West"
+    },
+    [2] = workspace:WaitForChild("VotingScreen")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RemoteEvents"):WaitForChild("Vote"):FireServer(unpack(args))
+end
 end
