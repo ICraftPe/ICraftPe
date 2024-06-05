@@ -1,4 +1,11 @@
 if game.PlaceId == 6225076142 then
+for _, v in pairs(game:GetService("Workspace").Scenes.Lobby.Map.ScavengerHunt:GetDescendants()) do
+   if v:IsA("ProximityPrompt") then
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame
+       wait(1)
+       fireproximityprompt(v, 10)
+   end
+end
 game:GetService("TeleportService"):Teleport(6403132498)
 else
 if game.PlaceId == 6403132498 then
