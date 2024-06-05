@@ -291,4 +291,14 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("IBS_Recovery"):FireServer(unpack(args))
+local args = {
+    [1] = "BodySuit"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("MerchBuyEvent"):FireServer(unpack(args))
+local args = {
+    [1] = "Hat"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("MerchBuyEvent"):FireServer(unpack(args))
 end
