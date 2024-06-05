@@ -1,11 +1,9 @@
 local args = {
     [1] = {
-        ["Best Game Trailer"] = "The Wild West",
-        ["Best Video Content Creator"] = "Kreekcraft",
-        ["Roblox Video of the Year"] = "LankyBox",
-        ["Game of the Year"] = "Piggy",
-        ["Best New Game "] = "Piggy",
-        ["Best Sleeper Hit"] = "The Wild West"
+["Best Content Update"] = "Jailbreak",
+["Best Use of Avatar Fashion"] = "Royale High",
+["People's Choice"] = "Adopt Me",
+["Video Star of the Year"] = "Flamingo"
     },
     [2] = workspace:WaitForChild("VotingScreen")
 }
