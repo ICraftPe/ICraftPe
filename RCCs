@@ -2,5 +2,5 @@ local A = 0
 
 while wait() do
   A = A + 1
-  game.ReplicatedStorage.Events.FinishQuiz:FireServer("Lesson"..A)
+  game.ReplicatedStorage.Events.FinishQuiz:InvokeServer("Lesson"..A)
 end
