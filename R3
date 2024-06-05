@@ -2,3 +2,38 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.pic
 wait(1)
 game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.pickledPeanuts.RobloxDialogue)
 game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.MadameMalarky.CharacterParts.HumanoidRootPart.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.MadameMalarky.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.neuronsAreCool.CharacterParts.HumanoidRootPart.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.neuronsAreCool.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.xX_superCool_Xx.CharacterParts.HumanoidRootPart.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.xX_superCool_Xx.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.turnipDisaster.CharacterParts.HumanoidRootPart.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.turnipDisaster.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.signEmotes.Frame.Part.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signEmotes.signEmotes.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.signAccountDanger.Frame.Part.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signAccountDanger.signAccountDanger.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.signEmotes.Frame.Part.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signEmotes.signEmotes.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
