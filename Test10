@@ -1,9 +1,20 @@
 local args = {
     [1] = {
-["Best Content Update"] = "Jailbreak",
-["Best Use of Avatar Fashion"] = "Royale High",
-["People's Choice"] = "Adopt Me",
-["Video Star of the Year"] = "Flamingo"
+["Best New Experience"] = "Deepwoken",
+["Best Creative Direction"] = "Creatures of Sonaria",
+["Best Use of Tech"] = "TUNNELER",
+["Video Star Video of the Year"] = "My $1,000,000 Mansion in Roblox",
+["Video Star of the Year"] = "Flamingo",
+["Best International Hit"] = "Welcome to Bloxburg",
+["Best Use of Avatar Fashion"] = "Mermaid Life",
+["Most Immersive Environment"] = "I N T E R V A L",
+["Developer Studio of the Year"] = "Easy.GG",
+["People's Choice"] = "BedWars",
+["Most Concurrent Users"] = "Brookhaven",
+["Builderman Award of Excellence"] = "Starving Artists",
+["Most Popular User-Created Item"] = "BubbleGum Candy (1.0)",
+["Best Audio Design"] = "RoBeats",
+["Best Content Update"] = "Piggy - Breakout Update New Chapter"
     },
     [2] = workspace:WaitForChild("VotingScreen")
 }
