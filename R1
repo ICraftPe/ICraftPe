@@ -1,2 +1,1 @@
 game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.pickledPeanuts.RobloxDialogue)
-game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.MadameMalarky.RobloxDialogue)
