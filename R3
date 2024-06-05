@@ -35,5 +35,15 @@ game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-80.1014938, 28.1953125, -5.03678226, 0.851235747, -1.13846585e-08, -0.524783432, 4.00603595e-09, 1, -1.51959387e-08, 0.524783432, 1.08330251e-08, 0.851235747)
 wait(1)
-game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signEmotes.signEmotes.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signClosedAccount.signClosedAccount.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.signPrizes.Sign.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signPrizes.signPrizes.RobloxDialogue)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.signFreeGems.Sign.CFrame
+wait(1)
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.signFreeGems.signFreeGems.RobloxDialogue)
 game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueResponseChosen:FireServer(1)
