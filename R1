@@ -1,0 +1,7 @@
+local args = {
+    [1] = workspace:WaitForChild("Clues"):WaitForChild("pickledPeanuts"):WaitForChild("RobloxDialogue")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RobloxDialogue"):WaitForChild("Remotes"):WaitForChild("DialogueRequested"):FireServer(unpack(args))
+
+game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer()
