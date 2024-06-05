@@ -1,1 +1,2 @@
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Clues.pickledPeanuts.CharacterParts.HumanoidRootPart.CFrame
 game.ReplicatedStorage.RobloxDialogue.Remotes.DialogueRequested:FireServer(workspace.Clues.pickledPeanuts.RobloxDialogue)
