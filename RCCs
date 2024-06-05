@@ -1,0 +1,6 @@
+local A = 0
+
+while wait() do
+  A = A + 1
+  game.ReplicatedStorage.Events.FinishQuiz:FireServer("Lesson"..A)
+end
