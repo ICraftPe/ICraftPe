@@ -1,0 +1,18 @@
+local args = {
+    [1] = "CollectItem",
+    [2] = "Shady Circle Glasses"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = "CollectItem",
+    [2] = "Sunshine Backpack"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+local args = {
+    [1] = "CollectItem",
+    [2] = "Tie-Dye Visor"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
