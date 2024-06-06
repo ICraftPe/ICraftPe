@@ -1,5 +1,1 @@
-for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
-if v.Name == "Freefall.Finish" then
-v:FireServer(100000,100000)
-end
-end
+game.Players.LocalPlayer:Kick("I removed this script.")
