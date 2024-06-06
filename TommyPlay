@@ -1,5 +1,5 @@
-if game.PlaceId == 9129288160 then
-game:GetService("TeleportService"):Teleport(10381578920)
-else
-game:GetService("TeleportService"):Teleport(9129288160)
+for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+if v.Name == "Freefall.Finish" then
+v:FireServer(100000000, 100000000)
+end
 end
