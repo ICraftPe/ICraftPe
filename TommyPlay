@@ -1,5 +1,5 @@
 for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
 if v.Name == "Freefall.Finish" then
-v:FireServer(100000000, 100000000)
+v:FireServer(100000)
 end
 end
