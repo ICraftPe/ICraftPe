@@ -8,9 +8,6 @@ if game.PlaceId == 5450795073 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/BtS"))()
 else
 if game.PlaceId == 5306359293 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/BtS"))()
-else
-if game.PlaceId == 5306359293 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/IOM"))()
 else
 if game.PlaceId == 7541759836 then
@@ -20,7 +17,6 @@ if game.PlaceId == 6507422231 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/TD"))()
 else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
-end
 end
 end
 end
