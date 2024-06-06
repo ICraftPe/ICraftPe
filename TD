@@ -1,0 +1,5 @@
+for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+if v.Name == "AdvanceState" then
+v:FireServer()
+end
+end
