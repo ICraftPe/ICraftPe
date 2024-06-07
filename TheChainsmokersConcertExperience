@@ -1,0 +1,1 @@
+for i,v in pairs(workspace.Venue.Environment.Client.ScavengerPoints:GetDescendants()) do if v.Name == "TouchInterest" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame wait(1)v.Parent.Parent:Remove() end end
