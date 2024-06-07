@@ -1,0 +1,1 @@
+for i,v in pairs(workspace.Workspace:GetDescendants()) do if v.Name == "Collectable-Mic" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame wait(1) v.Parent:Remove() end end
