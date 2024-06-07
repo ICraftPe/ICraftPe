@@ -22,7 +22,11 @@ else
 if game.PlaceId == 8967359816 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/24KGoldnConcertExperience"))()
 else
+if game.PlaceId == 6985028626 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/RobloxCommunitySpace"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
