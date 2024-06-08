@@ -28,7 +28,15 @@ else
 if game.PlaceId == 9291030453 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/TheChainsmokersConcertExperience"))()
 else
+if game.PlaceId == 447452406 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176.76648, -585.585327, 7918.54688, 0.947387159, 0.092421025, -0.306457102, -8.56906439e-08, 0.957409263, 0.288734287, 0.320089996, -0.273543119, 0.907037258)
+else
+if game.PlaceId == 1537690962 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/BeeSwarmSimulatorRP2Instant"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
+end
 end
 end
 end
