@@ -1,0 +1,42 @@
+local args = {
+    [1] = 1,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 2,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 4,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 5,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 3,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 2,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
+local args = {
+    [1] = 4,
+    [2] = "2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("AAPA"):WaitForChild("ButtonClick"):InvokeServer(unpack(args))
