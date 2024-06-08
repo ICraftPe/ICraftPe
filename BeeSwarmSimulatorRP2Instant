@@ -67,8 +67,8 @@ wait(1)
 local args = {
     [1] = "Purchase",
     [2] = {
-        ["Type"] = "Strange Goggles",
-        ["Category"] = "Accessory"
+        ["Category"] = "Accessory",
+        ["Type"] = "Strange Goggles"
     }
 }
 
