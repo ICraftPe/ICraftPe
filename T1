@@ -1,0 +1,125 @@
+local args = {
+    [1] = "Cubly"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Troggles"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "WORDFACTORY"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "millie"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "carmensandiego"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Jumpstart"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Dysentery"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Luther"
+}
+
+game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Category"] = "Accessory",
+        ["Type"] = "Strange Goggles"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+local args = {
+    [1] = "Equip",
+    [2] = {
+        ["Category"] = "Accessory",
+        ["Type"] = "Strange Goggles"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 2
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 3
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 4
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 5
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 6
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 7
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+local args = {
+    [1] = "InitStep",
+    [2] = {
+        ["Step"] = 8
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+wait(3)
+game.Players.LocalPlayer:Kick("Rejoin to receive your badge and UGC item.")
