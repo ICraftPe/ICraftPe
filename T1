@@ -3,36 +3,43 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Troggles"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "WORDFACTORY"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "millie"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "carmensandiego"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Jumpstart"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Dysentery"
 }
 
 game:GetService("ReplicatedStorage").Events.PromoCodeEvent:FireServer(unpack(args))
+wait(1)
 local args = {
     [1] = "Luther"
 }
