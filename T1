@@ -1,17 +1,41 @@
 game.ReplicatedStorage.DealershipSystem.purchase_item:InvokeServer(33)
 wait(20)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6005.36035, 221.752853, -336.406219, 0.66194725, 0.0582508482, -0.747283518, 8.48055635e-08, 0.99697566, 0.0777144581, 0.749550402, -0.0514429361, 0.659945309)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3824.27271, 221.278458, 820.377563, 0.436429709, -0.0637893528, 0.897474229, 8.82204674e-08, 0.997483611, 0.0708976313, -0.899738371, -0.0309417527, 0.435331494)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-252.953384, 230.103287, -1671.99792, 0.825691402, -0.0644141361, -0.560432434, 0.00521095889, 0.994288027, -0.106602609, 0.564098001, 0.0851004645, 0.821310759)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3240.19312, 219.977493, -2102.71436, 0.0876753107, -0.236995354, -0.967546523, 0.0135635249, 0.971480787, -0.236729965, 0.996056736, 0.0076320325, 0.0883893743)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6741.27686, 221.300964, -3656.8418, 0.202211842, -0.0164194815, -0.979204178, -8.16386958e-08, 0.999859452, -0.0167658497, 0.979341805, 0.00339033338, 0.202183425)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(540.098877, 311.420807, -2304.7605, -0.394733667, -0.0940137133, 0.913973033, 1.11408909e-07, 0.994751275, 0.102322824, -0.918795586, 0.0403903648, -0.39266178)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1465.41394, 366.693695, -2900.57788, 0.885878742, 0.05569667, 0.460561365, -8.90366891e-08, 0.992766976, -0.120057262, -0.463916898, 0.106356129, 0.879471123)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 wait(10)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1533.89258, 222.703354, -4574.55127, 0.335084677, 0.0442973748, 0.941146135, -7.75500695e-08, 0.998894155, -0.0470154025, -0.942188025, 0.0157540664, 0.334714115)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(10)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
