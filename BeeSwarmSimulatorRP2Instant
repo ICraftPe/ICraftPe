@@ -73,7 +73,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
-wait(1)
+wait(10)
 local args = {
     [1] = "Equip",
     [2] = {
