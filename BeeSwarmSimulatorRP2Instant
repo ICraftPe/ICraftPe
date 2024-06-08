@@ -171,3 +171,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
+game.Players.LocalPlayer:Kick("Rejoin to receive your badge (if you won't receive the badge, equip strange googles in the shop and try again).")
