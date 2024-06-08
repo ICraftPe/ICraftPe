@@ -77,8 +77,8 @@ wait(1)
 local args = {
     [1] = "Equip",
     [2] = {
-        ["Type"] = "Strange Goggles",
-        ["Category"] = "Accessory"
+        ["Category"] = "Accessory",
+        ["Type"] = "Strange Goggles"
     }
 }
 
@@ -171,5 +171,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.DigitalBeeEvent:FireServer(unpack(args))
-wait(1)
-game.Players.LocalPlayer:Kick("Rejoin to receive your badge (if you won't receive the badge, equip strange googles in the shop and try again).")
+game.Players.LocalPlayer:Kick("Rejoin to receive your badge and UGC item.")
