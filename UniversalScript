@@ -34,7 +34,11 @@ else
 if game.PlaceId == 1537690962 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/BeeSwarmSimulatorRP2Instant"))()
 else
+if game.PlaceId == 171391948 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/VehicleSimulatorRP2"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
