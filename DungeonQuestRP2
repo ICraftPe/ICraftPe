@@ -1,3 +1,4 @@
+if game.PlaceId == 2414851778 then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-494.768738, 9.28163719, 969.209229, 0.524496377, -1.51426587e-08, -0.851412714, -3.97907947e-08, 1, -4.22976854e-08, 0.851412714, 5.60633673e-08, 0.524496377)
 wait(5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(166.331543, 78.1312637, 842.691101, -0.709444702, -3.96014705e-08, 0.704761088, -2.85577446e-08, 1, 2.74438108e-08, -0.704761088, -6.56521559e-10, -0.709444702)
@@ -15,3 +16,7 @@ wait(5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(850.944763, 123.262543, 1140.93604, 0.254078656, -3.15029887e-08, -0.96718359, 2.61186734e-08, 1, -2.57105182e-08, 0.96718359, -1.87290574e-08, 0.254078656)
 wait(5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-135.153931, 3.16871977, 872.877869, 0.999269366, 2.80450347e-08, 0.0382191017, -2.59404231e-08, 1, -5.55628752e-08, -0.0382191017, 5.45308616e-08, 0.999269366)
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly2"))()
+end
+end
