@@ -1,4 +1,5 @@
 game.ReplicatedStorage.DealershipSystem.purchase_item:InvokeServer(33)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly2"))()
 wait(20)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6005.36035, 221.752853, -336.406219, 0.66194725, 0.0582508482, -0.747283518, 8.48055635e-08, 0.99697566, 0.0777144581, 0.749550402, -0.0514429361, 0.659945309)
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
