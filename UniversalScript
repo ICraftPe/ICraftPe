@@ -59,7 +59,11 @@ else
 if game.PlaceId == 7277488595 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/LuobuLaunchParty"))()
 else
+if game.PlaceId == 4623386862 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/PiggyRP2"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
