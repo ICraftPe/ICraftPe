@@ -56,7 +56,11 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(850.9447
 wait(5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-135.153931, 3.16871977, 872.877869, 0.999269366, 2.80450347e-08, 0.0382191017, -2.59404231e-08, 1, -5.55628752e-08, -0.0382191017, 5.45308616e-08, 0.999269366)
 else
+if game.PlaceId == 7277488595 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/LuobuLaunchParty"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
