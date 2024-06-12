@@ -1,4 +1,4 @@
-if game.PlaceId == 6225076142 or game.PlaceId == 6403132498 then -- Nah
+if game.PlaceId == 6225076142 or game.PlaceId == 6403132498 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/8thABA"))()
 else
 if game.PlaceId == 1871632192 or game.PlaceId == 2546610365 or game.PlaceId == 4201429814 or game.PlaceId == 3204381131 then
