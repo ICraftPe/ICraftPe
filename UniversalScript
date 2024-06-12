@@ -65,7 +65,11 @@ else
 if game.PlaceId == 4623386862 or game.PlaceId == 11702621548 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/PiggyRBB"))()
 else
+if game.PlaceId == 6888253864 then
+game:GetService("TeleportService"):Teleport(11704734733)
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
