@@ -1,0 +1,1 @@
+game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").Packages.Knit.Services.UGC_RewardService.RF.UnlockReward:InvokeServer("\71\117\109\98\97\108\108\95\71\108\97\115\115\101\115")
