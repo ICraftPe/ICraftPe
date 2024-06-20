@@ -1,1 +1,15 @@
+local CreditsGUI = Instance.new("ScreenGui")
+CreditsGUI.Name = "CreditsGUI"
+CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.TextScaled = true
+CreditsLabel.Text = "Creator: ICraftPe (YouTube: @ICraftPe). Using my scripts without putting @ICraftPe in the description or comments will be a result of terminating your videos and channel."
+CreditsLabel.Position = UDim2.new(0.386, 0 ,0.091, 0)
+CreditsLabel.Archivable = true
+CreditsLabel.Size = UDim2.new(0, 300, 0, 50)
+CreditsLabel.Parent = CreditsGUI
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = CreditsLabel
 game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101").Packages.Knit.Services.UGC_RewardService.RF.UnlockReward:InvokeServer("\82\97\118\101\110\95\72\111\111\100")
