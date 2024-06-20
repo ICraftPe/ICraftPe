@@ -1,4 +1,3 @@
-for i,v in pairs(workspace:GetDescendants()) do if v.Name == "Meshes/Token_Token_Base" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame wait(1) v.Parent:Remove() end end
 local CreditsGUI = Instance.new("ScreenGui")
 CreditsGUI.Name = "CreditsGUI"
 CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
@@ -13,3 +12,4 @@ CreditsLabel.Parent = CreditsGUI
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = CreditsLabel
+for i,v in pairs(workspace:GetDescendants()) do if v.Name == "Meshes/Token_Token_Base" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame wait(1) v.Parent:Remove() end end
