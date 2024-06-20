@@ -1,3 +1,9 @@
+game.ReplicatedStorage.Events.RedeemCode:FireServer("StrikeAPose")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("DIY")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("WorldAlive")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("SettingTheStage")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("VictoryLap")
+game.ReplicatedStorage.Events.RedeemCode:FireServer("GetMoving")
 local CreditsGUI = Instance.new("ScreenGui")
 CreditsGUI.Name = "CreditsGUI"
 CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
@@ -12,10 +18,3 @@ CreditsLabel.Parent = CreditsGUI
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = CreditsLabel
-game.ReplicatedStorage.Events.RedeemCode:FireServer("StrikeAPose")
-game.ReplicatedStorage.Events.RedeemCode:FireServer("DIY")
-game.ReplicatedStorage.Events.RedeemCode:FireServer("WorldAlive")
-game.ReplicatedStorage.Events.RedeemCode:FireServer("SettingTheStage")
-game.ReplicatedStorage.Events.RedeemCode:FireServer("VictoryLap")
-game.ReplicatedStorage.Events.RedeemCode:FireServer("GetMoving")
-
