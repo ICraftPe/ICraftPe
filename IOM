@@ -12,7 +12,6 @@ CreditsLabel.Parent = CreditsGUI
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = CreditsLabel
-
 game.ReplicatedStorage.Events.RedeemCode:FireServer("StrikeAPose")
 game.ReplicatedStorage.Events.RedeemCode:FireServer("DIY")
 game.ReplicatedStorage.Events.RedeemCode:FireServer("WorldAlive")
