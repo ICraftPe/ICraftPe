@@ -1,4 +1,4 @@
-local CreditsGUI = Instance.new("ScreenGui")
+local CreditsGUI = Instance.new("ScreenGui") -- Lol
 CreditsGUI.Name = "CreditsGUI"
 CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
 
