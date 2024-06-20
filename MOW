@@ -1,1 +1,15 @@
+local CreditsGUI = Instance.new("ScreenGui")
+CreditsGUI.Name = "CreditsGUI"
+CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.TextScaled = true
+CreditsLabel.Text = "Creator: ICraftPe (YouTube: @ICraftPe). Using my scripts without putting @ICraftPe in the description or comments will be a result of terminating your videos and channel."
+CreditsLabel.Position = UDim2.new(0.386, 0 ,0.091, 0)
+CreditsLabel.Archivable = true
+CreditsLabel.Size = UDim2.new(0, 300, 0, 50)
+CreditsLabel.Parent = CreditsGUI
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = CreditsLabel
 local l = { [1] = "\71\76\73\77\77\69\82" } game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101"):WaitForChild("\69\118\101\110\116\115"):WaitForChild("\82\101\100\101\101\109\67\111\100\101"):FireServer(unpack(l)) local l = { [1] = "\84\72\73\78\71\83\71\79\66\79\79\77" } game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101"):WaitForChild("\69\118\101\110\116\115"):WaitForChild("\82\101\100\101\101\109\67\111\100\101"):FireServer(unpack(l)) local l = { [1] = "\80\65\82\84\73\67\76\69\87\73\90\65\82\68" } game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101"):WaitForChild("\69\118\101\110\116\115"):WaitForChild("\82\101\100\101\101\109\67\111\100\101"):FireServer(unpack(l)) local l = { [1] = "\70\88\65\82\84\73\83\84" } game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101"):WaitForChild("\69\118\101\110\116\115"):WaitForChild("\82\101\100\101\101\109\67\111\100\101"):FireServer(unpack(l)) local l = { [1] = "\66\79\65\82\68\87\65\76\75" } game:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101"):WaitForChild("\69\118\101\110\116\115"):WaitForChild("\82\101\100\101\101\109\67\111\100\101"):FireServer(unpack(l))
