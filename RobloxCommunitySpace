@@ -1,0 +1,15 @@
+local CreditsGUI = Instance.new("ScreenGui")
+CreditsGUI.Name = "CreditsGUI"
+CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.TextScaled = true
+CreditsLabel.Text = "Creator: ICraftPe (YouTube: @ICraftPe). Using my scripts without putting @ICraftPe in the description or comments will be a result of terminating your videos and channel."
+CreditsLabel.Position = UDim2.new(0.386, 0 ,0.091, 0)
+CreditsLabel.Archivable = true
+CreditsLabel.Size = UDim2.new(0, 300, 0, 50)
+CreditsLabel.Parent = CreditsGUI
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = CreditsLabel
+for i,v in pairs(workspace:GetDescendants()) do if v.Name == "Meshes/Token_Token_Base" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame wait(1) v.Parent:Remove() end end
