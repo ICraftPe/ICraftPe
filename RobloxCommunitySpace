@@ -1,4 +1,4 @@
-local CreditsGUI = Instance.new("ScreenGui") -- Lol
+local CreditsGUI = Instance.new("ScreenGui") -- Lol, my script isn't overwriting
 CreditsGUI.Name = "CreditsGUI"
 CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
 
