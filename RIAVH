@@ -1,3 +1,17 @@
+local CreditsGUI = Instance.new("ScreenGui")
+CreditsGUI.Name = "CreditsGUI"
+CreditsGUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+local CreditsLabel = Instance.new("TextLabel")
+CreditsLabel.TextScaled = true
+CreditsLabel.Text = "Creator: ICraftPe (YouTube: @ICraftPe). Using my scripts without putting @ICraftPe in the description or comments will be a result of terminating your videos and channel."
+CreditsLabel.Position = UDim2.new(0.386, 0 ,0.091, 0)
+CreditsLabel.Archivable = true
+CreditsLabel.Size = UDim2.new(0, 300, 0, 50)
+CreditsLabel.Parent = CreditsGUI
+
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = CreditsLabel
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.46083212, 30.6223869, -115.098618, 0.99999851, -0.000193493324, -0.00171783473, -2.42612678e-05, 0.992047369, -0.125865296, 0.00172852736, 0.125865147, 0.992045879)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.73729396, 70.1645355, -197.689346, -0.935455322, 0.116984911, -0.333523452, 1.17258921e-07, 0.943636179, 0.330984473, 0.353444993, 0.309621155, -0.88272953)
