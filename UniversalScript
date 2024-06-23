@@ -93,7 +93,11 @@ else
 if game.PlaceId == 7085107422 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/NerfUGCs"))()
 else
+if game.PlaceId == 447452406 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/RHSRP2"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
