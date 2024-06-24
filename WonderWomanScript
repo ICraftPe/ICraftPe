@@ -1,4 +1,4 @@
-game:GetService("Workspace").NPCs.QuestNPCs.AmazonExplorerNPC.InteractionZone.Size = Vector3.new(99999999, 9999999, 9999999)
+game:GetService("Workspace").NPCs.QuestNPCs.AmazonExplorerNPC.InteractionZone.Size = Vector3.new(99999999999999999999, 99999999999999999999, 99999999999999999999)
 game:GetService("Players").LocalPlayer.PlayerGui.QuestsScreenGui.QuestRewardPopUpFrame.ClicksBlockerButton.Visible = false
 
 if game:GetService("Workspace").InteractiveWorldElements:FindFirstChild("DoubleSeats")~=nil then
