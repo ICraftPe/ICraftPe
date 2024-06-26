@@ -97,7 +97,7 @@ if game.PlaceId == 10217794885 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/RCC"))()
 else
 if game.PlaceId == 734159876 or game.PlaceId == 6028508797 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/SBRP2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/SharkBiteRP2"))()
 else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
 end
