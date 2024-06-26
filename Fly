@@ -1,18 +1,3 @@
---[[
-		MOBILE FLYING SCRIPTS
-		Original: me_ozoneYT & Lucifear
-		
-		Remade and optimized by Riky47#3355 for Arceus X
-		# spdmteam.com
-		
-		Edited and fixed by AZY#0348 for Fluxus / Hydrogen Compatibility
-        # Chillz and Maik
-]]
-
-local Script_Title = "Arceus X <font color=\"rgb(255, 0, 0)\">|</font> Mobile fly"
-
-
--- Instances:
 local Arceus = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
