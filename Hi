@@ -1,1 +1,1 @@
-hi
+game.Players.LocalPlayer:Kick("Ok")
