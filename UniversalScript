@@ -114,7 +114,11 @@ else
 if game.PlaceId == 11237748076 or game.PlaceId == 11270721253 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/StrangerThingsImmersiveWatchParty"))()
 else
+if game.PlaceId == 4377254026 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/MermaidLifeKlossette"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
