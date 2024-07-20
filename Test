@@ -1,0 +1,22 @@
+getgenv().autoCoin = true 
+repeat wait() until game:IsLoaded() 
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+end)
+game:GetService("Players").LocalPlayer.PlayerGui.ShootingGalleryGui:Destroy()
+while autoCoin == true do
+wait(1)
+game:GetService("ReplicatedStorage").ShootingGallery.RemoteEvents.RequestGalleryStart:FireServer()
+wait(0.1)
+local A_1 =
+{
+["TargetName"] = "Demogorgon",
+["score"] = math.huge,
+["position"] = Vector3.new()
+}
+local Event = game:GetService("ReplicatedStorage").ShootingGallery.RemoteEvents.Statistics.TargetHit
+Event:FireServer(A_1)
+wait(0.1)
+local args = {[1] = true}
+game:GetService("ReplicatedStorage").ShootingGallery.RemoteEvents.FinalBeatCleared:FireServer(unpack(args))
+end
