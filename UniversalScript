@@ -123,7 +123,11 @@ else
 if game.PlaceId == 13127800756 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/ArmWrestleSimulator"))()
 else
+if game.PlaceId == 6447798030 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/FunkyFriday"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
