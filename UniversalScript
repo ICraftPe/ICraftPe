@@ -129,7 +129,11 @@ else
 if game.PlaceId == 18320910606 or game.PlaceId == 18861030020 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/TheGames"))()
 else
+if game.PlaceId == 13672345562 or game.PlaceId == 16972230886 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Unnamed1"))()
+else
 game.Players.LocalPlayer:Kick("That game was unsupported, dm @ICraftPe on YT for more scripts, or I will release some new ASAP.")
+end
 end
 end
 end
