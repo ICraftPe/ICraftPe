@@ -1,5 +1,11 @@
-game.Players.PlayerAdded:Connect(function(Player)
-    if not game.BadgeService:UserHasBadgeAsync(Player.UserId, 2153964334) then
-       game.BadgeService:AwardBadge(Player.UserId, 2153964334)
-    end
-end
+local GUI = Instance.new("ScreenGui")
+GUI.Parent = game.Players.LocalPlayer.PlayerGui
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Size = UDim2.new({0, 300},{0, 200})
+MainFrame.Position = UDim2.new({0.386, 0},{0.087, 0})
+MainFrame.Visible = true
+MainFrame.Parent = GUI
+
+local MainFrameCorner = Instance.new("UICorner")
+MainFrameCorner.Parent = MainFrame
