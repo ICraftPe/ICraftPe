@@ -1,0 +1,8 @@
+-- My script to bypass Seek chase and Queen Grumble boss
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/DF2"))()
+-- Noclip and fullbright script (execute it if it's too dark one or two times)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Test1"))()
+-- Fly script (move your camera down a bit to bypass the anti noclip anti cheat)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly2"))()
+-- Hub I used in the video to bypass screech and halt mini game (it also has some W ESPs)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
