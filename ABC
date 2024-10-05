@@ -94,7 +94,7 @@ local Debounce = false
 local Kill = false
 
 local function HttpGet(url)
-	return HttpService:JSONDecode(htgetf(url))
+	return HttpService:JSONDecode(url)
 end
 
 local function Status(text, tout)
