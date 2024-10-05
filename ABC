@@ -1,3 +1,4 @@
+-- Edit
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local HttpService = game:GetService("HttpService")
@@ -160,7 +161,6 @@ local function main()
         else
             debounce = true
             notify("Confirm action", "Click again to cancel")
-            wait(3)
             if running then
                 debounce = false
             end
@@ -246,10 +246,8 @@ local function main()
             for _, serverAvatarUrl in ipairs(serverAvatarUrls) do
                 if serverAvatarUrl == userAvatarUrl then
                     status("Player found, teleporting...")
-                    wait(0.1)
                     TeleportService:TeleportToPlaceInstance(placeId, server.id, Players.LocalPlayer)
                     found = true
-                    wait(3)
                     break
                 end
             end
