@@ -1,3 +1,5 @@
+-- Hi!
+
 task.spawn(function()
     repeat task.wait() until game:IsLoaded()
     local Amplitude = 200
