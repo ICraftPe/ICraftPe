@@ -1,4 +1,4 @@
--- Hi!
+-- Hi
 
 task.spawn(function()
     repeat task.wait() until game:IsLoaded()
