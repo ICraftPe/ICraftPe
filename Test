@@ -1,0 +1,10 @@
+local Blacklist = game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Blacklist")
+
+if Blacklist then
+	Blacklist = game:GetService("HttpService"):JSONDecode(Blacklist)
+	for _, BlacklistedIds in Blacklist.data do
+		if game.Players.LocalPlayer.UserId == BlacklistedIds.id then
+			game.Players.LocalPlayer:Kick("Your account has been blacklisted!")
+		end
+	end
+end
