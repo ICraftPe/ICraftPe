@@ -1,23 +1,41 @@
 -- Power the train (it's not doing anything maybe):
+
 game:GetService("ReplicatedStorage"):WaitForChild("__remotes"):WaitForChild("SubwayEventService"):WaitForChild("PowerTrain"):InvokeServer()
+
 -- Script that should've been to teleport to the event place, but not working:
+
 local args = {
     [1] = false
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("__remotes"):WaitForChild("SubwayEventService"):WaitForChild("RequestSubwayTeleport"):InvokeServer(unpack(args))
+
 -- Script to teleport to the event:
+
 game:GetService("TeleportService"):Teleport(12000024773)
-Script to fly:
+
+-- Script to fly:
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly2"))()
-Noclip and fullbright:
+
+-- Noclip and fullbright:
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Test1"))()
-Script to collect the coins in the pet thing minigame (in the event):
+
+-- Script to collect the coins in the pet thing minigame (in the event):
+
 for i,v in pairs(workspace:GetDescendants()) do if v.Name == "Coin" then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame end end
-Script to teleport to the robot for defeating the boss:
+
+-- Script to teleport to the robot for defeating the boss:
+
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(11695.5566, -1845.03613, 4149.69141, 0.970344305, 0.0625446141, -0.23349534, -2.41178808e-14, 0.965946734, 0.258740783, 0.241726935, -0.251067638, 0.93730098)
-Script to fly as a robot (car fly script, you need to fly as a robot first to have an ability to attack the boss):
+
+-- Script to fly as a robot (car fly script, you need to fly as a robot first to have an ability to attack the boss):
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/CarFly"))()
-Script to claim the trophy (huh lol?):
+
+-- Script to claim the trophy (huh lol?):
+
 game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("CreditsMisc"):WaitForChild("PickupTrophy"):InvokeServer()
+
 -- Enjoy! ;)
