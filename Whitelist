@@ -1,6 +1,6 @@
 -- Yea, this script will be executed before using any of my scripts
 
-if game.Players.LocalPlayer:GetRankInGroup(15761457) >= 1 then
+if game:GetService("BadgeService"):UserHasBadgeAsync(game.Players.LocalPlayer, 2401693799439757) then
 else
 game.Players.LocalPlayer:Kick("Please, get Welcome! badge in my Roblox game called Bloxy S to use this script. You may find a link to the game in my latest video's description.")
 end
