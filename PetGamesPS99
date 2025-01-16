@@ -1,1 +1,2 @@
--- Tora IsMe's github account with over than 700 scripts got deleted after I posted the video lol
+-- Tora's account got deleted, but the script has been saved on his new github account, and also I saved it too
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/PetGamesPS99ToraSaved"))()
