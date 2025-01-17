@@ -1,2 +1,4 @@
--- Tora's account got deleted, but the script has been saved on his new github account, and also I saved it too
+-- Here's all of the scripts I used in this video (use all of them at the same time, just copy them all)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/PetGamesPS99ToraSaved"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Test1"))()
