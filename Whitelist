@@ -1,7 +1,1 @@
--- Yea, it's a whitelist thing
 
-if not game:GetService("BadgeService"):UserHasBadgeAsync(game.Players.LocalPlayer.UserId, 2401693799439757) then
-game.Players.LocalPlayer:Kick("Woah, not so fast! Get a Welcome! badge in my own Roblox game for playing it (link to the game is in my latest video's description)!")
-else
-print("Successfully whitelisted. Subscribe to @ICraftPe on YouTube XD!")
-end
