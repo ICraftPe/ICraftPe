@@ -1,6 +1,1 @@
--- Whitelist system for my scripts
 
-if game.Players.LocalPlayer:GetRankInGroup(35532591) >= 1 then
-else
-	game.Players.LocalPlayer:Kick("Join my new official Roblox group (link in my new video's description) to execute this script!")
-end
