@@ -1,1 +1,2 @@
-loadstring(game:HttpGet("https://githubusercontent.com/ICraftPe/ICraftPe/main/LTN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/LTN"))()
+-- Fixed the bug when the script isn't executing
