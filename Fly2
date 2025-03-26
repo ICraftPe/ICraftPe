@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Credits";
-                Text = "Modified By SpekzZ";
+                Title = "Credits:";
+                Text = "Modified by @ICraftPe on YouTube!";
                 Duration = 3.5;
             })
 -- Gui to Lua
@@ -30,32 +30,32 @@ Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0)
 Frame.Size = UDim2.new(0, 190, 0, 57)
  
-up.Name = "up"
+up.Name = "Up"
 up.Parent = Frame
 up.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
 up.Size = UDim2.new(0, 44, 0, 28)
 up.Font = Enum.Font.SourceSans
-up.Text = "UP"
+up.Text = "Up"
 up.TextColor3 = Color3.fromRGB(0, 0, 0)
 up.TextSize = 14.000
  
-down.Name = "down"
+down.Name = "Down"
 down.Parent = Frame
 down.BackgroundColor3 = Color3.fromRGB(215, 255, 121)
 down.Position = UDim2.new(0, 0, 0.491228074, 0)
 down.Size = UDim2.new(0, 44, 0, 28)
 down.Font = Enum.Font.SourceSans
-down.Text = "DOWN"
+down.Text = "Down"
 down.TextColor3 = Color3.fromRGB(0, 0, 0)
 down.TextSize = 14.000
  
-onof.Name = "onof"
+onof.Name = "Fly"
 onof.Parent = Frame
 onof.BackgroundColor3 = Color3.fromRGB(255, 249, 74)
 onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
 onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
-onof.Text = "fly"
+onof.Text = "Fly"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
 onof.TextSize = 14.000
  
@@ -64,13 +64,13 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Fly Gui V2"
+TextLabel.Text = "Fly V3"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
  
-plus.Name = "plus"
+plus.Name = "Plus"
 plus.Parent = Frame
 plus.BackgroundColor3 = Color3.fromRGB(133, 145, 255)
 plus.Position = UDim2.new(0.231578946, 0, 0, 0)
@@ -82,7 +82,7 @@ plus.TextScaled = true
 plus.TextSize = 14.000
 plus.TextWrapped = true
  
-speed.Name = "speed"
+speed.Name = "Speed"
 speed.Parent = Frame
 speed.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 speed.Position = UDim2.new(0.468421042, 0, 0.491228074, 0)
@@ -94,7 +94,7 @@ speed.TextScaled = true
 speed.TextSize = 14.000
 speed.TextWrapped = true
  
-mine.Name = "mine"
+mine.Name = "Minus"
 mine.Parent = Frame
 mine.BackgroundColor3 = Color3.fromRGB(123, 255, 247)
 mine.Position = UDim2.new(0.231578946, 0, 0.491228074, 0)
