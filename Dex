@@ -1,5 +1,5 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/DexCloneRef", true))()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/DexByPasses", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/DexClone", true))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/DexBypasses", true))()
  getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9352453730")[1]
  local charset = {}
  for i = 48,  57 do table.insert(charset, string.char(i)) end
