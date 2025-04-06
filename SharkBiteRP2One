@@ -1,6 +1,0 @@
--- Main script:
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/SharkBiteRP2"))()
-
--- Boss fight scripts (you can use them if you want to beat the boss faster):
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Fly"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/Test1"))()
