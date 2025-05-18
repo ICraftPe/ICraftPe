@@ -1,0 +1,4 @@
+if game:GetService("Players").LocalPlayer:GetRankInGroup(35532591) >= 1 then
+else
+	game:GetService("Players").LocalPlayer:Kick('Join my "ICraftPe" Roblox group (link in my video descriptions) to use the script!')
+end
