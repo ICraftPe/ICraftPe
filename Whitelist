@@ -1,0 +1,4 @@
+if game:GetService("BadgeService"):UserHasBadgeAsync(game:GetService("Players").LocalPlayer.UserId, 557729525730658) then
+else
+	game:GetService("Players").LocalPlayer:Kick("Play my game called Bloxy S (game's in the latest video's description) for 15 minutes. Discord server (for giveaways): https://discord.gg/BG7GKW4TAa.")
+end
