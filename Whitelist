@@ -1,4 +1,0 @@
-if game:GetService("BadgeService"):UserHasBadgeAsync(game:GetService("Players").LocalPlayer.UserId, 1763878224069931) then
-else
-game:GetService("Players").LocalPlayer:Kick("Play my game called Bloxy S (game's in the latest video's description) for 15 minutes.")
-end
