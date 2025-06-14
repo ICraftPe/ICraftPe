@@ -1,5 +1,0 @@
-local Player = game:GetService("Players").LocalPlayer
-
-if not game:GetService("BadgeService"):UserHasBadgeAsync(Player.UserId, 1400551750864556) then
-    game:GetService("Players").LocalPlayer:Kick("Play my game called Bloxy S (link in my latest video's description) for 15 minutes!")
-end
