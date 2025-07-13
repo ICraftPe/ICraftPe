@@ -1,9 +1,0 @@
-while wait() do
-for i,v in pairs(game.Players:GetDescendants()) do
-			if v.ClassName == "Player" then
-				if v:GetRoleInGroup(32909409) == "Moderator" then
-					game.Players.LocalPlayer:Kick(v.Name.." is an Mod.")
-				end
-			end
-		end
-end
