@@ -1,6 +1,0 @@
-if game.Players.LocalPlayer.UserId == 1780222949 then
-else
-game.Players.LocalPlayer:Kick("Disabled until I get the UGC.")
-error("Don't hook kick messages.")
-return
-end
